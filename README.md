@@ -1,10 +1,17 @@
 # PF Prices Page
 
-This a sample code for the purpose of demonstration. Please note, this uses some older versions of Ruby and React.
+This a sample code for the purpose of demonstration. Please note, this uses older versions of Ruby and React.
+The purpose of this app is to demonstrate a single page with multiple react components based on a Rails web app and interacting with a staged Rails backed API.
+
+You can also use the following login to the production app to see all the features:
+https://www.profarmergrain.com.au/
+username: railstest@nzx.com
+password: Priyanka2018
+I have gained permissions from the Head of Melbourne operations of NZX(Owner of Profarmergrain) to be able to use the some code and production login for demonstration purposes.
 
 ## Data
 
-No local storage, JSON content provided by prices and subscribers services
+No local storage, JSON content provided by prices service
 
 ## Platform
 Please note this is based on old versions of React
@@ -41,10 +48,11 @@ Gulp is used to monitor changes to JavaScript files and regenerate the bundles. 
 # Architecture
 
 The following descriptions provide an overview of the overall system.
+NOTE: For the purpose of demonstrating just the prices page, we are only using Prices API service with staged responses.
 
-The overall Profarmer Discovery architecture consists of a set of micro-services that provide units of functionality across the wider Profarmer Discovery feature set.
+The overall Profarmer Discovery architecture consists of a set of services that provide units of functionality across the wider Profarmer Discovery feature set.
 
-- Discovery Website
+- Discovery Website(HTML)
 
 Website providing public and authenticated subscriber access to content
 
@@ -64,18 +72,8 @@ JSON API only service providing access to subscriber details and information. Ma
 
 CSV API providing access to paid data feeds.
 
-## NOTE:
-For the purpose of demonstrating just the prices page, we are only using a Prices API with staged responses.
-
 # Running the overall system
 
 Run bundle install within both the apps.
 Please start HTMl server on localhost:3000 and Prices server on localhost:5000.
-Gulp is used on HTMl to bundle javascript in HTML.
-
-## Useful links
-
-http://clarkdave.net/2015/01/how-to-use-webpack-with-rails/
-https://github.com/greenish/react-mount
-https://github.com/goatslacker/alt
-https://facebook.github.io/jest/
+Gulp on HTMl to bundle javascript in HTML.
