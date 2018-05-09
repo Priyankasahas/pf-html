@@ -52,7 +52,7 @@ NOTE: For the purpose of demonstrating just the prices page, we are only using P
 
 The overall Profarmer Discovery architecture consists of a set of services that provide units of functionality across the wider Profarmer Discovery feature set.
 
-- Discovery Website(HTML)
+- Discovery Website(pf-html)
 
 Website providing public and authenticated subscriber access to content
 
@@ -60,7 +60,7 @@ Website providing public and authenticated subscriber access to content
 
 Website providing Profarmer staff with access to system and content administration
 
-- Discovery Prices
+- Discovery Prices(pf-prices)
 
 JSON API only service providing access to price content
 
@@ -75,5 +75,5 @@ CSV API providing access to paid data feeds.
 # Running the overall system
 
 Run bundle install within both the apps.
-Please start HTMl server on localhost:3000 and Prices server on localhost:5000.
-Gulp on HTMl to bundle javascript in HTML.
+Please start pf-html server on localhost:3000 and pf-prices server on localhost:5000.
+Gulp on pf-html to bundle javascript in pf-html.
