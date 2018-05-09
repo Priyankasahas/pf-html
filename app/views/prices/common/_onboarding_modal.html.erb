@@ -1,0 +1,22 @@
+<% if session[:show_welcome_modal] %>
+  <div class="modal fade" id="onboardingModal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <%= image_tag("mascot-circle.png", class: 'mascot-image')%>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>That was easy!</h3>
+              <p>Now you're ready to explore the latest bids, trades and analysis at <%= @silo.bhc_site_name %>.</p>
+              <button type="button" class="btn btn-primary retail-button-background-colour" data-dismiss="modal">I'm ready to use Profarmer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<% end %>
+
+<% content_for :javascript do %>
+  $('#onboardingModal').modal('show')
+<% end %>

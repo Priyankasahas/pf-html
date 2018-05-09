@@ -1,0 +1,676 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/delivered-newcastle-basin/DEL/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6e2d8f553c39ac266e9e1d2453bb5490"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 38def015-96aa-4682-8eae-cd5e437fd4b7
+      X-Runtime:
+      - '0.164491'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 29 Feb 2016 05:06:59 GMT
+      Content-Length:
+      - '6561'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"DeliveredZone","bhc_site_name":"Delivered
+        Newcastle Basin","bhc_site_state":"NSW","port_name":"Newcastle","bulk_handler_code":"DEL","bulk_handler_name":"Delivered
+        Market Zone","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":false,"pricing_label":"Delivered","tradable":false,"freight_rate":0.0,"merchant_prices":{"DR1":{"2015":[{"price":"373.0","port_price":"373.0","movement":"0.0","merchant":"GrainCorp","bin_grade_code":"DR1","grain_season":2015,"created_at":"2015-12-17T04:15:14Z"}]},"APH1":{"2015":[{"price":"297.0","port_price":"297.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"APH2":{"2015":[{"price":"288.0","port_price":"288.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH2","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"AGP1":{"2014":[{"price":"280.0","port_price":"280.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2015-09-04T05:25:11Z"}],"2015":[{"price":"261.0","port_price":"261.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"AUH2":{"2014":[{"price":"280.0","port_price":"280.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2015-09-04T05:25:11Z"}],"2015":[{"price":"268.0","port_price":"268.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"APW1":{"2014":[{"price":"280.0","port_price":"280.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"APW1","grain_season":2014,"created_at":"2015-09-04T05:25:11Z"}],"2015":[{"price":"273.0","port_price":"273.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"H2":{"2014":[{"price":"280.0","port_price":"280.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"H2","grain_season":2014,"created_at":"2015-09-04T05:25:11Z"}],"2015":[{"price":"278.0","port_price":"278.0","movement":"0.0","merchant":"LDA","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"ASW1":{"2014":[{"price":"280.0","port_price":"280.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2015-09-04T05:25:11Z"}],"2015":[{"price":"263.0","port_price":"263.0","movement":"0.0","merchant":"LDA","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"SFW1":{"2014":[{"price":"273.0","port_price":"273.0","movement":"0.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-10-21T04:50:04Z"}],"2015":[{"price":"255.0","port_price":"255.0","movement":"0.0","merchant":"Noble","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"FED1":{"2015":[{"price":"262.0","port_price":"262.0","movement":"-1.0","merchant":"Riverina","bin_grade_code":"FED1","grain_season":2015,"created_at":"2015-10-27T04:45:05Z"}]}},"market_prices":{"APW1":{"2015":{"price":"273.0","port_price":"273.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"APW1","grain_season":2015},"2014":{"price":"280.0","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-04T05:25:11Z","bin_grade_code":"APW1","grain_season":2014}},"APH1":{"2015":{"price":"297.0","port_price":"297.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"APH1","grain_season":2015}},"APH2":{"2015":{"price":"288.0","port_price":"288.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"APH2","grain_season":2015}},"H2":{"2015":{"price":"278.0","port_price":"278.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"H2","grain_season":2015},"2014":{"price":"280.0","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-04T05:25:11Z","bin_grade_code":"H2","grain_season":2014}},"AUH2":{"2015":{"price":"268.0","port_price":"268.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"AUH2","grain_season":2015},"2014":{"price":"280.0","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-04T05:25:11Z","bin_grade_code":"AUH2","grain_season":2014}},"ASW1":{"2015":{"price":"263.0","port_price":"263.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"ASW1","grain_season":2015},"2014":{"price":"280.0","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-04T05:25:11Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"261.0","port_price":"261.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"AGP1","grain_season":2015},"2014":{"price":"280.0","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-04T05:25:11Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2015":{"price":"262.0","port_price":"262.0","price_high_movement":"-1.0","prices_last_updated_at":"2015-10-27T04:45:05Z","bin_grade_code":"FED1","grain_season":2015}},"SFW1":{"2015":{"price":"255.0","port_price":"255.0","price_high_movement":"-18.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"SFW1","grain_season":2015},"2014":{"price":"273.0","port_price":"273.0","price_high_movement":"0.0","prices_last_updated_at":"2015-10-21T04:50:04Z","bin_grade_code":"SFW1","grain_season":2014}},"DR1":{"2015":{"price":"373.0","port_price":"373.0","price_high_movement":"0.0","prices_last_updated_at":"2015-12-17T04:15:14Z","bin_grade_code":"DR1","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H2","description":"Hard Wheat No 2"},{"code":"AUH2","description":"Australian
+        Hard Varieties Wheat (Utility Grade)"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"DR1","description":"Durum Wheat No.1 Grade -
+        Protein 13.2%"}],"grain_types":["Wheat","Sorghum","Canola"]}}'
+    http_version: 
+  recorded_at: Mon, 29 Feb 2016 05:06:59 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices?bhc_site_name=milvale&bulk_handler_code=GNC&grain_type=Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f1701a30fe1fd9477612c02e3134fd98"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 51f9eb2c-0b8c-414a-af0b-03cef163fbbc
+      X-Runtime:
+      - '0.265221'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 29 Feb 2016 05:07:00 GMT
+      Content-Length:
+      - '14446'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"Graincorp","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"SFE1":{"2015":[{"price":"309.31","port_price":"343.56","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"302.5","port_price":"336.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"242.31","port_price":"276.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}]},"APH2":{"2014":[{"price":"266.31","port_price":"300.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}],"2016":[{"price":"263.75","port_price":"298.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"251.75","port_price":"286.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APH1":{"2016":[{"price":"265.75","port_price":"300.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"259.75","port_price":"294.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"250.75","port_price":"285.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"H1":{"2016":[{"price":"256.75","port_price":"291.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"248.75","port_price":"283.0","movement":"0.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2015":[{"price":"245.75","port_price":"280.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2016":[{"price":"249.75","port_price":"284.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"H2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"241.75","port_price":"276.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}]},"APW1
+        MG":{"2016":[{"price":"247.5","port_price":"281.75","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"AUH2":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"241.75","port_price":"276.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"228.75","port_price":"263.0","movement":"1.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"243.75","port_price":"278.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.75","port_price":"275.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"226.75","port_price":"261.0","movement":"1.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"226.75","port_price":"261.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"APW1
+        FMG":{"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"FED1":{"2016":[{"price":"224.25","port_price":"258.5","movement":"-10.0","merchant":"AWB","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"172.75","port_price":"207.0","movement":"0.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2014,"created_at":"2015-09-29T00:03:33Z"}],"2015":[{"price":"163.75","port_price":"198.0","movement":"1.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"SFE2":{"2015":[{"price":"222.5","port_price":"256.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}]},"AGP1":{"2014":[{"price":"220.75","port_price":"255.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"219.75","port_price":"254.0","movement":"-1.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"213.75","port_price":"248.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"SFW1":{"2015":[{"price":"213.75","port_price":"248.0","movement":"2.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Nidera","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T00:50:08Z"},{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2016":[{"price":"198.75","port_price":"233.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"HPS1":{"2015":[{"price":"189.75","port_price":"224.0","movement":"1.0","merchant":"Noble","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]}},"market_prices":{"APW1":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"243.75","port_price":"278.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"APW1","grain_season":2014}},"APH1":{"2015":{"price":"259.75","port_price":"294.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APH1","grain_season":2015},"2016":{"price":"265.75","port_price":"300.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2015":{"price":"251.75","port_price":"286.0","price_high_movement":"-14.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APH2","grain_season":2015},"2016":{"price":"263.75","port_price":"298.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH2","grain_season":2016},"2014":{"price":"266.31","port_price":"300.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"APH2","grain_season":2014}},"H1":{"2015":{"price":"245.75","port_price":"280.0","price_high_movement":"-11.5","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"256.75","port_price":"291.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"248.75","port_price":"283.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"241.75","port_price":"276.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"249.75","port_price":"284.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"189.75","port_price":"224.0","price_high_movement":"-37.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"HPS1","grain_season":2015}},"AUH2":{"2015":{"price":"228.75","port_price":"263.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"241.75","port_price":"276.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"247.5","port_price":"281.75","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"226.75","port_price":"261.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"226.75","port_price":"261.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.75","port_price":"275.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"219.75","port_price":"254.0","price_high_movement":"-2.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"213.75","port_price":"248.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"220.75","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2015":{"price":"163.75","port_price":"198.0","price_high_movement":"-50.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"FED1","grain_season":2015},"2016":{"price":"224.25","port_price":"258.5","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"FED1","grain_season":2016},"2014":{"price":"172.75","port_price":"207.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-29T00:03:33Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"213.75","port_price":"248.0","price_high_movement":"2.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"198.75","port_price":"233.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"SFW1","grain_season":2014}},"SFE1":{"2015":{"price":"309.31","port_price":"343.56","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"SFE1","grain_season":2015},"2014":{"price":"242.31","port_price":"276.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"SFE1","grain_season":2014}},"SFE2":{"2015":{"price":"222.5","port_price":"256.75","price_high_movement":"-7.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"SFE2","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Mon, 29 Feb 2016 05:07:00 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices?bhc_site_name=invalid&bulk_handler_code=GNC&grain_type=Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: 'Not Found '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 5da01614-ec7e-49cf-90f4-2b50ca0cbc20
+      X-Runtime:
+      - '0.031301'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 29 Feb 2016 05:07:00 GMT
+      Content-Length:
+      - '0'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 29 Feb 2016 05:07:00 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/milvale/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f1701a30fe1fd9477612c02e3134fd98"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ede87839-0f4c-4d11-920b-65e24b11b24b
+      X-Runtime:
+      - '0.257877'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 29 Feb 2016 05:07:00 GMT
+      Content-Length:
+      - '14446'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"Graincorp","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"SFE1":{"2015":[{"price":"309.31","port_price":"343.56","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"302.5","port_price":"336.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"242.31","port_price":"276.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}]},"APH2":{"2014":[{"price":"266.31","port_price":"300.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}],"2016":[{"price":"263.75","port_price":"298.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"251.75","port_price":"286.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APH1":{"2016":[{"price":"265.75","port_price":"300.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"259.75","port_price":"294.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"250.75","port_price":"285.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"H1":{"2016":[{"price":"256.75","port_price":"291.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"248.75","port_price":"283.0","movement":"0.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2015":[{"price":"245.75","port_price":"280.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2016":[{"price":"249.75","port_price":"284.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"H2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"241.75","port_price":"276.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}]},"APW1
+        MG":{"2016":[{"price":"247.5","port_price":"281.75","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"AUH2":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"241.75","port_price":"276.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"228.75","port_price":"263.0","movement":"1.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"243.75","port_price":"278.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.75","port_price":"275.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"226.75","port_price":"261.0","movement":"1.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"226.75","port_price":"261.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"APW1
+        FMG":{"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"FED1":{"2016":[{"price":"224.25","port_price":"258.5","movement":"-10.0","merchant":"AWB","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"172.75","port_price":"207.0","movement":"0.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2014,"created_at":"2015-09-29T00:03:33Z"}],"2015":[{"price":"163.75","port_price":"198.0","movement":"1.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"SFE2":{"2015":[{"price":"222.5","port_price":"256.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}]},"AGP1":{"2014":[{"price":"220.75","port_price":"255.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"219.75","port_price":"254.0","movement":"-1.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"213.75","port_price":"248.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"SFW1":{"2015":[{"price":"213.75","port_price":"248.0","movement":"2.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Nidera","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T00:50:08Z"},{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2016":[{"price":"198.75","port_price":"233.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"HPS1":{"2015":[{"price":"189.75","port_price":"224.0","movement":"1.0","merchant":"Noble","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]}},"market_prices":{"APW1":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"243.75","port_price":"278.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"APW1","grain_season":2014}},"APH1":{"2015":{"price":"259.75","port_price":"294.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APH1","grain_season":2015},"2016":{"price":"265.75","port_price":"300.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2015":{"price":"251.75","port_price":"286.0","price_high_movement":"-14.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APH2","grain_season":2015},"2016":{"price":"263.75","port_price":"298.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH2","grain_season":2016},"2014":{"price":"266.31","port_price":"300.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"APH2","grain_season":2014}},"H1":{"2015":{"price":"245.75","port_price":"280.0","price_high_movement":"-11.5","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"256.75","port_price":"291.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"248.75","port_price":"283.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"241.75","port_price":"276.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"249.75","port_price":"284.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"189.75","port_price":"224.0","price_high_movement":"-37.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"HPS1","grain_season":2015}},"AUH2":{"2015":{"price":"228.75","port_price":"263.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"241.75","port_price":"276.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"247.5","port_price":"281.75","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"226.75","port_price":"261.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"226.75","port_price":"261.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.75","port_price":"275.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"219.75","port_price":"254.0","price_high_movement":"-2.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"213.75","port_price":"248.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"220.75","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2015":{"price":"163.75","port_price":"198.0","price_high_movement":"-50.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"FED1","grain_season":2015},"2016":{"price":"224.25","port_price":"258.5","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"FED1","grain_season":2016},"2014":{"price":"172.75","port_price":"207.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-29T00:03:33Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"213.75","port_price":"248.0","price_high_movement":"2.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"198.75","port_price":"233.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"SFW1","grain_season":2014}},"SFE1":{"2015":{"price":"309.31","port_price":"343.56","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"SFE1","grain_season":2015},"2014":{"price":"242.31","port_price":"276.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"SFE1","grain_season":2014}},"SFE2":{"2015":{"price":"222.5","port_price":"256.75","price_high_movement":"-7.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"SFE2","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Mon, 29 Feb 2016 05:07:00 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/delivered-newcastle-basin/DEL/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 06:32:46 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"8e26fe08c6ee1cb5b34c0271ab353286"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f581359e-d7da-4c78-9b24-04d125433ac7
+      X-Runtime:
+      - '0.709447'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"DeliveredZone","bhc_site_name":"Delivered
+        Newcastle Basin","bhc_site_state":"NSW","port_name":"Newcastle","bulk_handler_code":"DEL","bulk_handler_name":"Delivered
+        Market Zone","bulk_handler_short_name":null,"grain_type_name":"Wheat","grain_season_start_year":2016,"port_equivalent":false,"pricing_label":"Delivered","tradable":false,"freight_rate":0.0,"merchant_prices":{"APH2":{"2016":[{"price":"284.0","port_price":"284.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-02-23T02:40:14Z"}]},"APW1":{"2016":[{"price":"245.0","port_price":"245.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]},"H2":{"2016":[{"price":"245.0","port_price":"245.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]},"ASW1":{"2016":[{"price":"245.0","port_price":"245.0","movement":"3.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:35:06Z"},{"price":"245.0","port_price":"245.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]},"AGP1":{"2016":[{"price":"240.0","port_price":"240.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]},"SFW1":{"2016":[{"price":"240.0","port_price":"240.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}],"2015":[{"price":"230.0","port_price":"230.0","movement":"0.0","merchant":"Agracom","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2017-05-02T03:50:05Z"}]}},"market_prices":{"APW1":{"2016":{"price":"245.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"APW1","grain_season":2016}},"APH2":{"2016":{"price":"284.0","port_price":"284.0","price_high_movement":"0.0","prices_last_updated_at":"2017-02-23T02:40:14Z","bin_grade_code":"APH2","grain_season":2016}},"H2":{"2016":{"price":"245.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"H2","grain_season":2016}},"ASW1":{"2016":{"price":"245.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T04:35:06Z","bin_grade_code":"ASW1","grain_season":2016}},"AGP1":{"2016":{"price":"240.0","port_price":"240.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"AGP1","grain_season":2016}},"SFW1":{"2016":{"price":"240.0","port_price":"240.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"SFW1","grain_season":2016},"2015":{"price":"230.0","port_price":"230.0","price_high_movement":"0.0","prices_last_updated_at":"2017-05-02T03:50:05Z","bin_grade_code":"SFW1","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH2","description":"Australian Prime
+        Hard Wheat No 2"},{"code":"H2","description":"Hard Wheat No 2"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"SFW1","description":"Stock Feed Winter Wheat"}],"grain_types":["Wheat","Sorghum","Canola"]}}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 06:32:46 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/invalid/GNC/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 06:32:46 GMT
+      Connection:
+      - close
+      Content-Type:
+      - text/html
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - a3371be7-2d68-4bc9-a255-866ce52419a5
+      X-Runtime:
+      - '0.015156'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 06:32:46 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/milvale/GNC/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 06:32:47 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"035864fcb5e4bdecdd4eb54fd66c0c51"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3c3fa2f1-e74b-4fb5-b928-4ff5b1fc972f
+      X-Runtime:
+      - '1.021377'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"GrainCorp","grain_type_name":"Wheat","grain_season_start_year":2016,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"APH2":{"2016":[{"price":"270.5","port_price":"304.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"263.75","port_price":"298.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"262.75","port_price":"297.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"252.75","port_price":"287.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"}]},"APH1":{"2016":[{"price":"262.75","port_price":"297.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APH1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"262.75","port_price":"297.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}]},"H1":{"2016":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Elders","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-05-31T05:20:05Z"}]},"H2":{"2016":[{"price":"218.75","port_price":"253.0","movement":"0.0","merchant":"Wilmar
+        Gavilon - Derived","bin_grade_code":"H2","grain_season":2016,"created_at":"2017-06-06T00:20:06Z"}]},"APW1
+        MG":{"2017":[{"price":"216.0","port_price":"250.25","movement":"2.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T02:50:07Z"},{"price":"214.72","port_price":"248.97","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T03:05:07Z"}],"2016":[{"price":"192.0","port_price":"226.25","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2017-01-10T04:40:07Z"}]},"APW1":{"2017":[{"price":"214.72","port_price":"248.97","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2017,"created_at":"2017-06-05T03:05:07Z"},{"price":"198.75","port_price":"233.0","movement":"0.0","merchant":"ADM
+        - Derived","bin_grade_code":"APW1","grain_season":2017,"created_at":"2017-06-05T05:30:06Z"}],"2016":[{"price":"205.75","port_price":"240.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"202.0","port_price":"236.25","movement":"0.0","merchant":"COFCO","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"201.0","port_price":"235.25","movement":"1.25","merchant":"Elders","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"199.75","port_price":"234.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"198.75","port_price":"233.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"198.5","port_price":"232.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"195.75","port_price":"230.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"194.75","port_price":"229.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}],"2015":[{"price":"175.5","port_price":"209.75","movement":"7.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2015,"created_at":"2017-05-01T03:15:07Z"}]},"AUH2":{"2016":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"205.75","port_price":"240.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"204.0","port_price":"238.25","movement":"0.0","merchant":"COFCO","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"203.0","port_price":"237.25","movement":"1.25","merchant":"Elders","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"201.75","port_price":"236.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"198.5","port_price":"232.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"194.75","port_price":"229.0","movement":"0.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"187.75","port_price":"222.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"}]},"APW1
+        FMG":{"2017":[{"price":"198.75","port_price":"233.0","movement":"0.0","merchant":"ADM
+        - Derived","bin_grade_code":"APW1 FMG","grain_season":2017,"created_at":"2017-06-05T05:30:06Z"}]},"ASW1":{"2016":[{"price":"195.75","port_price":"230.0","movement":"0.0","merchant":"LDA","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"194.0","port_price":"228.25","movement":"1.0","merchant":"COFCO","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"193.0","port_price":"227.25","movement":"2.25","merchant":"Elders","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"192.75","port_price":"227.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"188.5","port_price":"222.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"183.75","port_price":"218.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"}]},"AGP1":{"2016":[{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"187.0","port_price":"221.25","movement":"0.0","merchant":"COFCO","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"186.0","port_price":"220.25","movement":"1.25","merchant":"Elders","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"184.75","port_price":"219.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"183.75","port_price":"218.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"182.75","port_price":"217.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"178.5","port_price":"212.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"164.75","port_price":"199.0","movement":"0.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}]},"SFW1":{"2015":[{"price":"185.75","port_price":"220.0","movement":"0.0","merchant":"Agracom","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2017-05-16T05:05:07Z"}],"2016":[{"price":"165.75","port_price":"200.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"}]},"SFE1":{"2016":[{"price":"183.5","port_price":"217.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]},"HPS1":{"2016":[{"price":"179.75","port_price":"214.0","movement":"1.0","merchant":"Agrex","bin_grade_code":"HPS1","grain_season":2016,"created_at":"2017-06-02T02:50:05Z"}]},"FED1":{"2016":[{"price":"173.5","port_price":"207.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"119.75","port_price":"154.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"FED1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"}],"2015":[{"price":"160.75","port_price":"195.0","movement":"0.0","merchant":"Agracom","bin_grade_code":"FED1","grain_season":2015,"created_at":"2017-01-10T02:55:07Z"}]},"SFE2":{"2016":[{"price":"172.5","port_price":"206.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]}},"market_prices":{"APW1":{"2016":{"price":"205.75","port_price":"240.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1","grain_season":2016},"2017":{"price":"214.72","port_price":"248.97","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1","grain_season":2017},"2015":{"price":"175.5","port_price":"209.75","price_high_movement":"7.0","prices_last_updated_at":"2017-05-01T03:15:07Z","bin_grade_code":"APW1","grain_season":2015}},"APH1":{"2016":{"price":"262.75","port_price":"297.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2016":{"price":"270.5","port_price":"304.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APH2","grain_season":2016}},"H1":{"2016":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2017-05-31T05:20:05Z","bin_grade_code":"H1","grain_season":2016}},"H2":{"2016":{"price":"218.75","port_price":"253.0","price_high_movement":"-2.0","prices_last_updated_at":"2017-06-06T00:20:06Z","bin_grade_code":"H2","grain_season":2016}},"HPS1":{"2016":{"price":"179.75","port_price":"214.0","price_high_movement":"1.0","prices_last_updated_at":"2017-06-02T02:50:05Z","bin_grade_code":"HPS1","grain_season":2016}},"AUH2":{"2016":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"AUH2","grain_season":2016}},"ASW1":{"2016":{"price":"195.75","port_price":"230.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"ASW1","grain_season":2016}},"APW1
+        MG":{"2017":{"price":"216.0","port_price":"250.25","price_high_movement":"1.28","prices_last_updated_at":"2017-06-05T03:05:07Z","bin_grade_code":"APW1
+        MG","grain_season":2017},"2016":{"price":"192.0","port_price":"226.25","price_high_movement":"0.0","prices_last_updated_at":"2017-01-10T04:40:07Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"APW1 FMG":{"2017":{"price":"198.75","port_price":"233.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1
+        FMG","grain_season":2017}},"AGP1":{"2016":{"price":"190.75","port_price":"225.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"AGP1","grain_season":2016}},"FED1":{"2016":{"price":"173.5","port_price":"207.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T05:10:06Z","bin_grade_code":"FED1","grain_season":2016},"2015":{"price":"160.75","port_price":"195.0","price_high_movement":"0.0","prices_last_updated_at":"2017-01-10T02:55:07Z","bin_grade_code":"FED1","grain_season":2015}},"SFW1":{"2016":{"price":"165.75","port_price":"200.0","price_high_movement":"-35.0","prices_last_updated_at":"2017-06-05T04:45:06Z","bin_grade_code":"SFW1","grain_season":2016},"2015":{"price":"185.75","port_price":"220.0","price_high_movement":"0.0","prices_last_updated_at":"2017-05-16T05:05:07Z","bin_grade_code":"SFW1","grain_season":2015}},"SFE1":{"2016":{"price":"183.5","port_price":"217.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"SFE1","grain_season":2016}},"SFE2":{"2016":{"price":"172.5","port_price":"206.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"SFE2","grain_season":2016}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"ASW1","description":"Australian Standard White Varieties
+        Wheat"},{"code":"APW1 MG","description":"Multigrade APW1"},{"code":"APW1 FMG","description":"APW1
+        Floating Spread Multi-Grade"},{"code":"AGP1","description":"Australian General
+        Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 06:32:47 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/milvale/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 06:32:48 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"035864fcb5e4bdecdd4eb54fd66c0c51"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b07b639a-e9d7-43e5-838a-80f05b7ad07e
+      X-Runtime:
+      - '0.439123'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"GrainCorp","grain_type_name":"Wheat","grain_season_start_year":2016,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"APH2":{"2016":[{"price":"270.5","port_price":"304.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"263.75","port_price":"298.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"262.75","port_price":"297.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"252.75","port_price":"287.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH2","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"}]},"APH1":{"2016":[{"price":"262.75","port_price":"297.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APH1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"262.75","port_price":"297.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}]},"H1":{"2016":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Elders","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-05-31T05:20:05Z"}]},"H2":{"2016":[{"price":"218.75","port_price":"253.0","movement":"0.0","merchant":"Wilmar
+        Gavilon - Derived","bin_grade_code":"H2","grain_season":2016,"created_at":"2017-06-06T00:20:06Z"}]},"APW1
+        MG":{"2017":[{"price":"216.0","port_price":"250.25","movement":"2.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T02:50:07Z"},{"price":"214.72","port_price":"248.97","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T03:05:07Z"}],"2016":[{"price":"192.0","port_price":"226.25","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2017-01-10T04:40:07Z"}]},"APW1":{"2017":[{"price":"214.72","port_price":"248.97","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2017,"created_at":"2017-06-05T03:05:07Z"},{"price":"198.75","port_price":"233.0","movement":"0.0","merchant":"ADM
+        - Derived","bin_grade_code":"APW1","grain_season":2017,"created_at":"2017-06-05T05:30:06Z"}],"2016":[{"price":"205.75","port_price":"240.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"202.0","port_price":"236.25","movement":"0.0","merchant":"COFCO","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"201.0","port_price":"235.25","movement":"1.25","merchant":"Elders","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"199.75","port_price":"234.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"198.75","port_price":"233.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"198.5","port_price":"232.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"195.75","port_price":"230.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"194.75","port_price":"229.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}],"2015":[{"price":"175.5","port_price":"209.75","movement":"7.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2015,"created_at":"2017-05-01T03:15:07Z"}]},"AUH2":{"2016":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"205.75","port_price":"240.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"204.0","port_price":"238.25","movement":"0.0","merchant":"COFCO","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"203.0","port_price":"237.25","movement":"1.25","merchant":"Elders","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"201.75","port_price":"236.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"198.5","port_price":"232.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"194.75","port_price":"229.0","movement":"0.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"187.75","port_price":"222.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"}]},"APW1
+        FMG":{"2017":[{"price":"198.75","port_price":"233.0","movement":"0.0","merchant":"ADM
+        - Derived","bin_grade_code":"APW1 FMG","grain_season":2017,"created_at":"2017-06-05T05:30:06Z"}]},"ASW1":{"2016":[{"price":"195.75","port_price":"230.0","movement":"0.0","merchant":"LDA","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"194.0","port_price":"228.25","movement":"1.0","merchant":"COFCO","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"193.0","port_price":"227.25","movement":"2.25","merchant":"Elders","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"192.75","port_price":"227.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"188.5","port_price":"222.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"183.75","port_price":"218.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"}]},"AGP1":{"2016":[{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"187.0","port_price":"221.25","movement":"0.0","merchant":"COFCO","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"186.0","port_price":"220.25","movement":"1.25","merchant":"Elders","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"184.75","port_price":"219.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"183.75","port_price":"218.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"182.75","port_price":"217.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"178.5","port_price":"212.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"164.75","port_price":"199.0","movement":"0.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}]},"SFW1":{"2015":[{"price":"185.75","port_price":"220.0","movement":"0.0","merchant":"Agracom","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2017-05-16T05:05:07Z"}],"2016":[{"price":"165.75","port_price":"200.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"}]},"SFE1":{"2016":[{"price":"183.5","port_price":"217.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]},"HPS1":{"2016":[{"price":"179.75","port_price":"214.0","movement":"1.0","merchant":"Agrex","bin_grade_code":"HPS1","grain_season":2016,"created_at":"2017-06-02T02:50:05Z"}]},"FED1":{"2016":[{"price":"173.5","port_price":"207.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"119.75","port_price":"154.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"FED1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"}],"2015":[{"price":"160.75","port_price":"195.0","movement":"0.0","merchant":"Agracom","bin_grade_code":"FED1","grain_season":2015,"created_at":"2017-01-10T02:55:07Z"}]},"SFE2":{"2016":[{"price":"172.5","port_price":"206.75","movement":"4.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"}]}},"market_prices":{"APW1":{"2016":{"price":"205.75","port_price":"240.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1","grain_season":2016},"2017":{"price":"214.72","port_price":"248.97","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1","grain_season":2017},"2015":{"price":"175.5","port_price":"209.75","price_high_movement":"7.0","prices_last_updated_at":"2017-05-01T03:15:07Z","bin_grade_code":"APW1","grain_season":2015}},"APH1":{"2016":{"price":"262.75","port_price":"297.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2016":{"price":"270.5","port_price":"304.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APH2","grain_season":2016}},"H1":{"2016":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2017-05-31T05:20:05Z","bin_grade_code":"H1","grain_season":2016}},"H2":{"2016":{"price":"218.75","port_price":"253.0","price_high_movement":"-2.0","prices_last_updated_at":"2017-06-06T00:20:06Z","bin_grade_code":"H2","grain_season":2016}},"HPS1":{"2016":{"price":"179.75","port_price":"214.0","price_high_movement":"1.0","prices_last_updated_at":"2017-06-02T02:50:05Z","bin_grade_code":"HPS1","grain_season":2016}},"AUH2":{"2016":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"AUH2","grain_season":2016}},"ASW1":{"2016":{"price":"195.75","port_price":"230.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"ASW1","grain_season":2016}},"APW1
+        MG":{"2017":{"price":"216.0","port_price":"250.25","price_high_movement":"1.28","prices_last_updated_at":"2017-06-05T03:05:07Z","bin_grade_code":"APW1
+        MG","grain_season":2017},"2016":{"price":"192.0","port_price":"226.25","price_high_movement":"0.0","prices_last_updated_at":"2017-01-10T04:40:07Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"APW1 FMG":{"2017":{"price":"198.75","port_price":"233.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1
+        FMG","grain_season":2017}},"AGP1":{"2016":{"price":"190.75","port_price":"225.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"AGP1","grain_season":2016}},"FED1":{"2016":{"price":"173.5","port_price":"207.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T05:10:06Z","bin_grade_code":"FED1","grain_season":2016},"2015":{"price":"160.75","port_price":"195.0","price_high_movement":"0.0","prices_last_updated_at":"2017-01-10T02:55:07Z","bin_grade_code":"FED1","grain_season":2015}},"SFW1":{"2016":{"price":"165.75","port_price":"200.0","price_high_movement":"-35.0","prices_last_updated_at":"2017-06-05T04:45:06Z","bin_grade_code":"SFW1","grain_season":2016},"2015":{"price":"185.75","port_price":"220.0","price_high_movement":"0.0","prices_last_updated_at":"2017-05-16T05:05:07Z","bin_grade_code":"SFW1","grain_season":2015}},"SFE1":{"2016":{"price":"183.5","port_price":"217.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"SFE1","grain_season":2016}},"SFE2":{"2016":{"price":"172.5","port_price":"206.75","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T02:50:07Z","bin_grade_code":"SFE2","grain_season":2016}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"ASW1","description":"Australian Standard White Varieties
+        Wheat"},{"code":"APW1 MG","description":"Multigrade APW1"},{"code":"APW1 FMG","description":"APW1
+        Floating Spread Multi-Grade"},{"code":"AGP1","description":"Australian General
+        Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 06:32:48 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices?bhc_site_name=milvale&bulk_handler_code=GNC&grain_type=Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic OnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d4c5a30faaaf7514ec93bab30650dce"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ee76b446-0979-48c6-a10e-058ba73a1ccb
+      X-Runtime:
+      - '0.007202'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"Graincorp","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"SFE1":{"2015":[{"price":"309.31","port_price":"343.56","movement":"-1.0","merchant":"GrainCorp-Cash","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"302.5","port_price":"336.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"242.31","port_price":"276.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}]},"APH2":{"2014":[{"price":"266.31","port_price":"300.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}],"2016":[{"price":"263.75","port_price":"298.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"251.75","port_price":"286.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APH1":{"2016":[{"price":"265.75","port_price":"300.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"259.75","port_price":"294.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"250.75","port_price":"285.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"H1":{"2016":[{"price":"256.75","port_price":"291.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"248.75","port_price":"283.0","movement":"0.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2015":[{"price":"245.75","port_price":"280.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2016":[{"price":"249.75","port_price":"284.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"H2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"241.75","port_price":"276.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}]},"APW1
+        MG":{"2016":[{"price":"247.5","port_price":"281.75","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"AUH2":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"241.75","port_price":"276.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"228.75","port_price":"263.0","movement":"1.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"243.75","port_price":"278.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.75","port_price":"275.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"226.75","port_price":"261.0","movement":"1.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"226.75","port_price":"261.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"APW1
+        FMG":{"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"FED1":{"2016":[{"price":"224.25","port_price":"258.5","movement":"-10.0","merchant":"AWB","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"172.75","port_price":"207.0","movement":"0.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2014,"created_at":"2015-09-29T00:03:33Z"}],"2015":[{"price":"163.75","port_price":"198.0","movement":"1.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"SFE2":{"2015":[{"price":"222.5","port_price":"256.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}]},"AGP1":{"2014":[{"price":"220.75","port_price":"255.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"219.75","port_price":"254.0","movement":"-1.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"213.75","port_price":"248.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"SFW1":{"2015":[{"price":"213.75","port_price":"248.0","movement":"2.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Nidera","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T00:50:08Z"},{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2016":[{"price":"198.75","port_price":"233.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"HPS1":{"2015":[{"price":"189.75","port_price":"224.0","movement":"1.0","merchant":"Noble","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]}},"market_prices":{"APW1":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"243.75","port_price":"278.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"APW1","grain_season":2014}},"APH1":{"2015":{"price":"259.75","port_price":"294.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APH1","grain_season":2015},"2016":{"price":"265.75","port_price":"300.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2015":{"price":"251.75","port_price":"286.0","price_high_movement":"-14.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APH2","grain_season":2015},"2016":{"price":"263.75","port_price":"298.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH2","grain_season":2016},"2014":{"price":"266.31","port_price":"300.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"APH2","grain_season":2014}},"H1":{"2015":{"price":"245.75","port_price":"280.0","price_high_movement":"-11.5","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"256.75","port_price":"291.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"248.75","port_price":"283.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"241.75","port_price":"276.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"249.75","port_price":"284.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"189.75","port_price":"224.0","price_high_movement":"-37.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"HPS1","grain_season":2015}},"AUH2":{"2015":{"price":"228.75","port_price":"263.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"241.75","port_price":"276.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"247.5","port_price":"281.75","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"226.75","port_price":"261.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"226.75","port_price":"261.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.75","port_price":"275.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"219.75","port_price":"254.0","price_high_movement":"-2.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"213.75","port_price":"248.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"220.75","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2015":{"price":"163.75","port_price":"198.0","price_high_movement":"-50.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"FED1","grain_season":2015},"2016":{"price":"224.25","port_price":"258.5","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"FED1","grain_season":2016},"2014":{"price":"172.75","port_price":"207.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-29T00:03:33Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"213.75","port_price":"248.0","price_high_movement":"2.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"198.75","port_price":"233.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"SFW1","grain_season":2014}},"SFE1":{"2015":{"price":"309.31","port_price":"343.56","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"SFE1","grain_season":2015},"2014":{"price":"242.31","port_price":"276.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"SFE1","grain_season":2014}},"SFE2":{"2015":{"price":"222.5","port_price":"256.75","price_high_movement":"-7.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"SFE2","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Wed, 09 May 2018 12:48:24 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices?bhc_site_name=milvale&grain_type=Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic OnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d4c5a30faaaf7514ec93bab30650dce"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f7980ffa-f040-43db-a636-e014ce11db4f
+      X-Runtime:
+      - '0.007206'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"Graincorp","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"SFE1":{"2015":[{"price":"309.31","port_price":"343.56","movement":"-1.0","merchant":"GrainCorp-Cash","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"302.5","port_price":"336.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"242.31","port_price":"276.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}]},"APH2":{"2014":[{"price":"266.31","port_price":"300.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}],"2016":[{"price":"263.75","port_price":"298.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"251.75","port_price":"286.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APH1":{"2016":[{"price":"265.75","port_price":"300.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"259.75","port_price":"294.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"250.75","port_price":"285.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"H1":{"2016":[{"price":"256.75","port_price":"291.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"248.75","port_price":"283.0","movement":"0.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2015":[{"price":"245.75","port_price":"280.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2016":[{"price":"249.75","port_price":"284.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"H2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"241.75","port_price":"276.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}]},"APW1
+        MG":{"2016":[{"price":"247.5","port_price":"281.75","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"AUH2":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"241.75","port_price":"276.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"228.75","port_price":"263.0","movement":"1.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"243.75","port_price":"278.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.75","port_price":"275.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"226.75","port_price":"261.0","movement":"1.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"226.75","port_price":"261.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"APW1
+        FMG":{"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"FED1":{"2016":[{"price":"224.25","port_price":"258.5","movement":"-10.0","merchant":"AWB","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"172.75","port_price":"207.0","movement":"0.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2014,"created_at":"2015-09-29T00:03:33Z"}],"2015":[{"price":"163.75","port_price":"198.0","movement":"1.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"SFE2":{"2015":[{"price":"222.5","port_price":"256.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}]},"AGP1":{"2014":[{"price":"220.75","port_price":"255.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"219.75","port_price":"254.0","movement":"-1.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"213.75","port_price":"248.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"SFW1":{"2015":[{"price":"213.75","port_price":"248.0","movement":"2.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Nidera","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T00:50:08Z"},{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2016":[{"price":"198.75","port_price":"233.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"HPS1":{"2015":[{"price":"189.75","port_price":"224.0","movement":"1.0","merchant":"Noble","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]}},"market_prices":{"APW1":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"243.75","port_price":"278.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"APW1","grain_season":2014}},"APH1":{"2015":{"price":"259.75","port_price":"294.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APH1","grain_season":2015},"2016":{"price":"265.75","port_price":"300.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2015":{"price":"251.75","port_price":"286.0","price_high_movement":"-14.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APH2","grain_season":2015},"2016":{"price":"263.75","port_price":"298.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH2","grain_season":2016},"2014":{"price":"266.31","port_price":"300.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"APH2","grain_season":2014}},"H1":{"2015":{"price":"245.75","port_price":"280.0","price_high_movement":"-11.5","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"256.75","port_price":"291.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"248.75","port_price":"283.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"241.75","port_price":"276.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"249.75","port_price":"284.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"189.75","port_price":"224.0","price_high_movement":"-37.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"HPS1","grain_season":2015}},"AUH2":{"2015":{"price":"228.75","port_price":"263.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"241.75","port_price":"276.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"247.5","port_price":"281.75","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"226.75","port_price":"261.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"226.75","port_price":"261.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.75","port_price":"275.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"219.75","port_price":"254.0","price_high_movement":"-2.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"213.75","port_price":"248.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"220.75","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2015":{"price":"163.75","port_price":"198.0","price_high_movement":"-50.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"FED1","grain_season":2015},"2016":{"price":"224.25","port_price":"258.5","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"FED1","grain_season":2016},"2014":{"price":"172.75","port_price":"207.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-29T00:03:33Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"213.75","port_price":"248.0","price_high_movement":"2.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"198.75","port_price":"233.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"SFW1","grain_season":2014}},"SFE1":{"2015":{"price":"309.31","port_price":"343.56","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"SFE1","grain_season":2015},"2014":{"price":"242.31","port_price":"276.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"SFE1","grain_season":2014}},"SFE2":{"2015":{"price":"222.5","port_price":"256.75","price_high_movement":"-7.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"SFE2","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Wed, 09 May 2018 12:48:25 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices?bhc_site_name=delivered-newcastle-basin&bulk_handler_code=DEL&grain_type=Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic OnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1d4c5a30faaaf7514ec93bab30650dce"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 61a2e0a2-62e1-4397-b7bd-474783d350ab
+      X-Runtime:
+      - '0.008357'
+      Vary:
+      - Origin
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Milvale","bhc_site_state":"NSW","port_name":"Port
+        Kembla","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp Operations
+        Limited","bulk_handler_short_name":"Graincorp","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"34.25","merchant_prices":{"SFE1":{"2015":[{"price":"309.31","port_price":"343.56","movement":"-1.0","merchant":"GrainCorp-Cash","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"302.5","port_price":"336.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"242.31","port_price":"276.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"SFE1","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}]},"APH2":{"2014":[{"price":"266.31","port_price":"300.56","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APH2","grain_season":2014,"created_at":"2015-10-08T01:11:06Z"}],"2016":[{"price":"263.75","port_price":"298.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"251.75","port_price":"286.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APH1":{"2016":[{"price":"265.75","port_price":"300.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APH1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"259.75","port_price":"294.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"250.75","port_price":"285.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APH1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}]},"H1":{"2016":[{"price":"256.75","port_price":"291.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"248.75","port_price":"283.0","movement":"0.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2015":[{"price":"245.75","port_price":"280.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2016":[{"price":"249.75","port_price":"284.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"H2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"241.75","port_price":"276.0","movement":"1.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.75","port_price":"265.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}]},"APW1
+        MG":{"2016":[{"price":"247.5","port_price":"281.75","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"AUH2":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"241.75","port_price":"276.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"228.75","port_price":"263.0","movement":"1.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"245.75","port_price":"280.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"243.75","port_price":"278.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.75","port_price":"275.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"226.75","port_price":"261.0","movement":"1.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"226.75","port_price":"261.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"APW1
+        FMG":{"2015":[{"price":"233.75","port_price":"268.0","movement":"1.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"FED1":{"2016":[{"price":"224.25","port_price":"258.5","movement":"-10.0","merchant":"AWB","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"172.75","port_price":"207.0","movement":"0.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2014,"created_at":"2015-09-29T00:03:33Z"}],"2015":[{"price":"163.75","port_price":"198.0","movement":"1.0","merchant":"Noble","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"SFE2":{"2015":[{"price":"222.5","port_price":"256.75","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"SFE2","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}]},"AGP1":{"2014":[{"price":"220.75","port_price":"255.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2015":[{"price":"219.75","port_price":"254.0","movement":"-1.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"213.75","port_price":"248.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"SFW1":{"2015":[{"price":"213.75","port_price":"248.0","movement":"2.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"191.75","port_price":"226.0","movement":"0.0","merchant":"Nidera","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T00:50:08Z"},{"price":"190.75","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"208.75","port_price":"243.0","movement":"0.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-09-30T05:07:55Z"}],"2016":[{"price":"198.75","port_price":"233.0","movement":"-10.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"HPS1":{"2015":[{"price":"189.75","port_price":"224.0","movement":"1.0","merchant":"Noble","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]}},"market_prices":{"APW1":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"243.75","port_price":"278.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"APW1","grain_season":2014}},"APH1":{"2015":{"price":"259.75","port_price":"294.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APH1","grain_season":2015},"2016":{"price":"265.75","port_price":"300.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH1","grain_season":2016}},"APH2":{"2015":{"price":"251.75","port_price":"286.0","price_high_movement":"-14.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APH2","grain_season":2015},"2016":{"price":"263.75","port_price":"298.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"APH2","grain_season":2016},"2014":{"price":"266.31","port_price":"300.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"APH2","grain_season":2014}},"H1":{"2015":{"price":"245.75","port_price":"280.0","price_high_movement":"-11.5","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"256.75","port_price":"291.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"248.75","port_price":"283.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"241.75","port_price":"276.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"249.75","port_price":"284.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"189.75","port_price":"224.0","price_high_movement":"-37.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"HPS1","grain_season":2015}},"AUH2":{"2015":{"price":"228.75","port_price":"263.0","price_high_movement":"-5.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"241.75","port_price":"276.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"245.75","port_price":"280.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"233.75","port_price":"268.0","price_high_movement":"1.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"247.5","port_price":"281.75","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"226.75","port_price":"261.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"226.75","port_price":"261.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.75","port_price":"275.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"219.75","port_price":"254.0","price_high_movement":"-2.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"213.75","port_price":"248.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"220.75","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2015":{"price":"163.75","port_price":"198.0","price_high_movement":"-50.56","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"FED1","grain_season":2015},"2016":{"price":"224.25","port_price":"258.5","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"FED1","grain_season":2016},"2014":{"price":"172.75","port_price":"207.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-29T00:03:33Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"213.75","port_price":"248.0","price_high_movement":"2.0","prices_last_updated_at":"2016-02-05T02:05:06Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"198.75","port_price":"233.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"208.75","port_price":"243.0","price_high_movement":"0.0","prices_last_updated_at":"2015-09-30T05:07:55Z","bin_grade_code":"SFW1","grain_season":2014}},"SFE1":{"2015":{"price":"309.31","port_price":"343.56","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"SFE1","grain_season":2015},"2014":{"price":"242.31","port_price":"276.56","price_high_movement":"0.0","prices_last_updated_at":"2015-10-08T01:11:06Z","bin_grade_code":"SFE1","grain_season":2014}},"SFE2":{"2015":{"price":"222.5","port_price":"256.75","price_high_movement":"-7.0","prices_last_updated_at":"2016-02-05T03:00:25Z","bin_grade_code":"SFE2","grain_season":2015}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH1","description":"Australian Prime
+        Hard Varieties"},{"code":"APH2","description":"Australian Prime Hard Wheat
+        No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"},{"code":"SFE1","description":"Soft Wheat No.1 Grade"},{"code":"SFE2","description":"Soft
+        Wheat No.2 Grade"}],"grain_types":["Wheat","Canola","Barley"]}}'
+    http_version: 
+  recorded_at: Wed, 09 May 2018 12:48:25 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profarmer Discovery - Australian Grain Prices</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Profarmer Discovery is the definitive app for Australian grain prices, analysis and selling tactics. Use Profarmer to get the best price for your grain.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-title" content="Profarmer">
+  <meta name="mobile-web-app-capable" content="yes">
+  <%= stylesheet_link_tag :public, media: 'all' %>
+  <%= javascript_include_tag :modernizr %>
+  <%= csrf_meta_tags %>
+  <%= favicon_link_tag 'favicon.ico' %>
+  <%= favicon_link_tag 'apple-icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+  <%= favicon_link_tag 'android-icon.png', rel: 'shortcut icon', type: 'image/png' %>
+</head>
+<body class="<%= controller_name %>">
+<header>
+<nav class="navbar navbar-default br0 bn">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="/">
+        <div class="logo-header"></div>
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">          
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</header>
+
+<%= yield %>
+
+<footer>
+<div class="container">
+  <div class="col-sm-9 col-xs-9 col-md-9 col-lg-9">
+  <ul>
+    <li><%= link_to 'Twitter', "https://twitter.com/profarmer_aus", class: 'blue-link', target: '_blank' %></li>
+    <li><%= link_to 'Contact', contact_path, class: 'blue-link' %></li>
+    <li><%= link_to 'Privacy Policy and Disclaimer', privacy_path, class: 'blue-link' %></li>
+  </ul>
+  </div>
+  <div class="col-sm-3 col-xs-3 col-md-3 col-lg-3">
+  <ul>
+    <li>&#169; Copyright <%= Time.now.year %></li>
+  </ul>
+  </div>
+</div>
+</footer>
+
+<%= javascript_include_tag 'common-bundle' %>
+<%= javascript_include_tag 'public' %>
+
+<script type="text/javascript">
+    <%= yield :javascript %>
+    $(function () {
+      $('[data-toggle="mascot-email-us-tooltip"]').tooltip()
+    });
+</script>
+
+<script type="text/javascript">
+!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+analytics.load("JIuCxaWbnDGpBGIRoQwm2Rmlu6TWzeht");
+analytics.page()
+}}();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "name": "profarmer-discovery-html",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "server.js",
+  "dependencies": {
+    "alt": "^0.17.3",
+    "c3": "^0.4.10",
+    "classnames": "^2.2.1",
+    "counterpart": "^0.16.7",
+    "intl": "^0.1.4",
+    "jquery": "^3.1.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ujs": "^1.2.2",
+    "lodash": "^3.10.0",
+    "mobile-detect": "^1.3.0",
+    "moment": "^2.11.2",
+    "node-libs-browser": "^0.5.0",
+    "react": "^0.13.3",
+    "react-ago-component": "^0.6.1",
+    "react-autosuggest": "^1.15.0",
+    "react-intl": "^1.2.0",
+    "react-mixin": "^1.2.3",
+    "react-mount": "^0.1.3",
+    "react-tools": "^0.13.3",
+    "showdown": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^5.2.17",
+    "babel-loader": "^5.0.0",
+    "exports-loader": "^0.6.2",
+    "expose-loader": "^0.6.0",
+    "gulp": "^3.8.11",
+    "gulp-webpack": "^1.4.0",
+    "imports-loader": "^0.6.3",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NZX/profarmer-discovery-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NZX/profarmer-discovery-html/issues"
+  },
+  "homepage": "https://github.com/NZX/profarmer-discovery-html"
+}

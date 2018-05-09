@@ -1,0 +1,7 @@
+clear:
+  service: 'https://cleargrain.com.au'
+
+prices:
+  service: 'http://localhost:5000'
+  username: 'prices'
+  password: 'password'

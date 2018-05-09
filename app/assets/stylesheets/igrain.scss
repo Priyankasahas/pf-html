@@ -1,0 +1,60 @@
+@import "private.scss";
+.navbar {
+    .navbar-right {
+        .logo-header {
+          background: image-url("igrain-logo.png") no-repeat center;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          background-size: cover;
+          margin: 18px 0 0;
+          width: 117.5px;
+          height: 33px;
+        }
+    }
+}
+.retail-button-background-colour.retail-button-background-colour {
+    background-color: #E1F3FB;
+}
+.retail-button-background-colour:focus,
+.retail-button-background-colour:hover {
+    background-color: #E1F3FB;
+}
+.retail-button-background-colour:active:focus,
+.retail-button-background-colour:active:hover {
+    background-color: #E1F3FB;
+}
+.exchange-market-loading-animation-background-colour {
+    background-color: #E1F3FB;
+}
+.retail-nav-background-colour {
+    background-color: #E1F3FB;
+}
+.retail-nav-border-top {
+    border-top: 1px solid #999999;
+}
+.nav-profile-icon-black {
+  background-image: image-url("profile-icon-black.png");
+}
+.nav-notification-bell-icon-black {
+  background-image: image-url("notification-icon-black.png");
+}
+.ui-datepicker td a:hover {
+    background-color: #E1F3FB;
+}
+.retail-text-colour {
+    color: #A0410D;
+}
+.preview-offer-silo {
+    span {
+        color: #A0410D;
+    }
+}
+@media (max-width: 767px) {
+    .navbar .navbar-right .logo-header {
+        background: image-url("small-igrain-logo.png") no-repeat center;
+        width: 32px;
+        height: 32px;
+        background-size: 32px 32px;
+        margin: 20px 0 0 12px;
+    }
+}

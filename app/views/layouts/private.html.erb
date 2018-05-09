@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+
+<head>
+  <title><%= content_for(:title) || "Profarmer Discovery - Australian Grain Prices" %></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="apple-mobile-web-app-title" content="Profarmer">
+
+  <%= stylesheet_link_tag 'profarmer', media: 'all' %>
+
+    <%= javascript_include_tag :modernizr %>
+    <%= csrf_meta_tags %>
+    <%= favicon_link_tag 'favicon.ico' %>
+    <%= favicon_link_tag 'apple-icon.png', rel: 'apple-touch-icon', type: 'image/png' %>
+    <%= favicon_link_tag 'android-icon.png', rel: 'shortcut icon', type: 'image/png' %>
+</head>
+
+<body>
+  <header class="navbar navbar-default br0 bn retail-nav-background-colour retail-nav-border-top mb0">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="col-sm-2">
+          <div class="navbar-header">
+            <div class="navbar-right">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="glyphicon glyphicon-search glyphicon-search-icon-white" aria-hidden="true"></span>
+              </button>
+              <a href="/">
+                <div class="logo-header"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-7 ag-nav-padding">
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse shadow-0" id="bs-example-navbar-collapse-1">
+            <!-- <%= yield :navbar %> -->
+          </div>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+    <!-- /.container-fluid -->
+  </header>
+
+  <!--[if IE 9]>
+  <div class="upgrade-dialogue">
+    <h4>Please upgrade your browser to use Profarmer.</h4>
+    <p>You will be unable to use Profarmer using your current<br>
+    web browser. Please upgrade your browser <br>
+    using one of the options below:</p>
+    <div class="row">
+      <div class="col-lg-4">
+        <a href="http://www.google.com/chrome/" class="blue-link">
+          <%= image_tag 'chrome-icon.png' %>
+          <p>Google<br> Chrome</p>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.mozilla.org/en-US/firefox/new/" class="blue-link">
+          <%= image_tag 'firefox-icon.png' %>
+          <p>Mozilla<br> Firefox</p>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <a href="https://www.microsoft.com/en-au/download/internet-explorer-11-for-windows-7-details.aspx" class="blue-link">
+          <%= image_tag 'ie-icon.png' %>
+          <p>Internet<br> Explorer 11</p>
+        </a>
+      </div>
+    </div>
+    <p>I don't understand this. <a href="/contact" class="blue-link">Contact Profarmer.</a></p>
+  </div>
+  <![endif]-->
+
+  <div class="container-fluid">
+    <%= yield %>
+  </div>
+
+  <%= javascript_include_tag 'common-bundle' %>
+  <%= javascript_include_tag 'private' %>
+
+  <script>
+    <%= yield :javascript %>
+  </script>
+
+  <footer class="bt bb b--light-grey bg-white">
+    <div class="container pt2 pb2">
+      <div class="col-sm-6 col-xs-6 col-md-2 col-lg-2">
+        <ul>
+          <li>
+            <%= link_to 'Twitter', "https://twitter.com/profarmer_aus", class: 'blue-link', target: '_blank' %>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-12 col-xs-12 col-md-4 col-lg-4">
+        <ul>
+          <li>&#169; Copyright
+            <%= Time.now.year %></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  </body>
+</html>

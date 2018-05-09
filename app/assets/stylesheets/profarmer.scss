@@ -1,0 +1,47 @@
+@import "private.scss";
+
+.navbar {
+    .navbar-right {
+        .logo-header {
+            background: image-url("PF-light-background.png") no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            margin: 12px 0 0 5px;
+            width: 113.5px;
+            height: 41.7px;
+        }
+    }
+}
+.retail-button-background-colour.retail-button-background-colour {
+    background-color: #FFD32F;
+}
+.retail-button-background-colour:focus,
+.retail-button-background-colour:hover {
+    background-color: #FFD32F;
+}
+.retail-button-background-colour:active:focus,
+.retail-button-background-colour:active:hover {
+    background-color: #FFD32F;
+}
+.exchange-market-loading-animation-background-colour {
+    background-color: #FFD32F;
+}
+.retail-nav-background-colour {
+    background-color: #FFFFFF;
+}
+.nav-profile-icon-black {
+  background-image: image-url("profile-icon-black.png");
+}
+.nav-notification-bell-icon-black {
+  background-image: image-url("notification-icon-black.png");
+}
+.ui-datepicker td a:hover {
+	background-color: #FFD32F;
+}
+.retail-text-colour {
+    color: #555;
+}
+.powered-by-banner {
+  display: none;
+}

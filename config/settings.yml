@@ -1,0 +1,11 @@
+clear:
+  service: <%= ENV["CLEAR_GRAIN_SERVICE"] %>
+  reset_path: 'r'
+  support_email: support@cleargrain.com.au
+  phone: 1800 000 410
+  name: Clear Grain Exchange
+
+prices:
+  service: <%= ENV["PROFARMER_PRICES_SERVICE"] %>
+  username: <%= ENV["PROFARMER_PRICES_USERNAME"] %>
+  password: <%= ENV["PROFARMER_PRICES_PASSWORD"] %>

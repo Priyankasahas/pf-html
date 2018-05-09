@@ -1,0 +1,35 @@
+clear:
+  service: 'http://localhost:3002'
+
+feeds:
+  service: 'http://localhost:7000'
+
+subscribers:
+  service: 'http://localhost:4000'
+  username: 'subscribers'
+  password: 'password'
+
+prices:
+  service: 'http://localhost:5000'
+  username: 'prices'
+  password: 'password'
+
+
+orders:
+  service: 'http://localhost:8000/orders'
+  username: 'orders'
+  password: 'password'
+
+fast_cash:
+  service: 'http://117.53.165.218/test/api/fastcash'
+  username: 'clearfc123'
+  password: 'KGtJ!R@sg6EPMp*8'
+
+test:
+  id: 8
+  user: test@cgx.com.au
+  password: 12341234
+  new_password: 1234512345
+
+cgx:
+  service: cgx.dev

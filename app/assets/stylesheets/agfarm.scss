@@ -1,0 +1,77 @@
+@import "private.scss";
+.navbar {
+    min-height: 106px;
+    .navbar-right {
+        .logo-header {
+            background: image-url("agfarm-logo.png") no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            width: 121px;
+            height: 86px;
+            margin-top: 6px;
+        }
+    }
+}
+.ag-nav-padding {
+    padding-top: 1.5rem;
+}
+.retail-button-background-colour.retail-button-background-colour {
+    background-color: #DCE5EB;
+}
+.retail-button-background-colour:focus,
+.retail-button-background-colour:hover {
+    background-color: #DCE5EB;
+}
+.retail-button-background-colour:active:focus,
+.retail-button-background-colour:active:hover {
+    background-color: #DCE5EB;
+}
+.exchange-market-loading-animation-background-colour {
+    background-color: #DCE5EB;
+}
+.retail-nav-background-colour.retail-nav-background-colour.retail-nav-background-colour {
+    background-color: #003B63;
+}
+.white-search-bulk-handler-label {
+    color: #FFFFFF;
+}
+.nav-profile-icon-white {
+    background-image: image-url("profile-icon-white.png");
+}
+.nav-notification-bell-icon-white {
+    background-image: image-url("notification-icon-white.png");
+}
+.glyphicon-search-icon-white {
+    color: #FFFFFF;
+}
+.ag-header.ag-header {
+    background-color: #003B63;
+    color: #FFFFFF;
+}
+.ui-datepicker td a:hover {
+    background-color: #DCE5EB;
+}
+.retail-text-colour {
+    color: #00447D;
+}
+.preview-offer-silo {
+    span {
+        color: #00447D;
+    }
+}
+@media (max-width: 767px) {
+    .navbar .navbar-right .logo-header {
+        background: image-url("agfarm-logo.png") no-repeat center;
+        width: 55px;
+        height: 38px;
+        background-size: cover;
+        margin: 16px 0 0 4px;
+    }
+    .navbar {
+        min-height: 76px;
+    }
+    .ag-nav-padding {
+        padding-top: 0px;
+    }
+}

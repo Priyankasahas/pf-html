@@ -1,0 +1,66 @@
+@import "private.scss";
+.navbar {
+    .navbar-right {
+        .logo-header {
+            background: image-url("clear-logo.png") no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            margin: 20px 0 0;
+            width: 146px;
+            height: 31px;
+        }
+    }
+}
+.retail-button-background-colour.retail-button-background-colour {
+    background-color: #FFD32F;
+}
+.retail-button-background-colour:focus,
+.retail-button-background-colour:hover {
+    background-color: #FFD32F;
+}
+.retail-button-background-colour:active:focus,
+.retail-button-background-colour:active:hover {
+    background-color: #FFD32F;
+}
+.exchange-market-loading-animation-background-colour {
+    background-color: #FFD32F;
+}
+.retail-nav-background-colour {
+    background-color: #555555;
+}
+.retail-nav-border-top {
+    border-top: 1px solid #999999;
+}
+.white-search-bulk-handler-label {
+    color: #FFFFFF;
+}
+.nav-profile-icon-white {
+    background-image: image-url("profile-icon-white.png");
+}
+.nav-notification-bell-icon-white {
+    background-image: image-url("notification-icon-white.png");
+}
+.glyphicon-search-icon-white {
+    color: #FFFFFF;
+}
+.ui-datepicker td a:hover {
+    background-color: #FFD32F;
+}
+.retail-text-colour {
+    color: #000000;
+}
+.preview-offer-silo {
+    span {
+        color: #000000;
+    }
+}
+@media (max-width: 767px) {
+    .navbar .navbar-right .logo-header {
+        background: image-url("small-clear-logo.png") no-repeat center;
+        width: 54px;
+        height: 20px;
+        background-size: 54px 20px;
+        margin: 26px 0 0 12px;
+    }
+}

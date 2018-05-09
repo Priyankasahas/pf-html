@@ -1,0 +1,186 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/bhc_sites?type=PortZone
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"f4369d654964b26de46a9af1adbd4733"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 21f4bb67-baad-4e9c-9da7-69c21ad9be84
+      X-Runtime:
+      - '0.050346'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Wed, 13 Apr 2016 06:32:23 GMT
+      Content-Length:
+      - '5226'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"bhc_sites":[{"id":737,"name":"Albany Zone","port_name":"Albany Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":715,"name":"Brisbane Zone","port_name":"Brisbane
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":837,"name":"Bunbury Zone","port_name":"Bunbury
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":738,"name":"Esperance Zone","port_name":"Esperance
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":716,"name":"Geelong Zone","port_name":"Geelong
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":739,"name":"Geraldton Zone","port_name":"Geraldton
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":717,"name":"Gladstone Zone","port_name":"Gladstone
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":740,"name":"Kwinana Zone","port_name":"Kwinana
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":718,"name":"Mackay Zone","port_name":"Mackay
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":719,"name":"Melbourne Zone","port_name":"Melbourne
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":720,"name":"Newcastle Zone","port_name":"Newcastle
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":721,"name":"Port Adelaide Zone","port_name":"Port
+        Adelaide Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":false,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":722,"name":"Port Giles Zone","port_name":"Port
+        Giles Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":723,"name":"Port Kembla Zone","port_name":"Port
+        Kembla Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":724,"name":"Port Lincoln Zone","port_name":"Port
+        Lincoln Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":725,"name":"Portland Zone","port_name":"Portland
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":726,"name":"Thevenard Zone","port_name":"Thevenard
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":727,"name":"Wallaroo Zone","port_name":"Wallaroo
+        Terminal","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"}]}'
+    http_version: 
+  recorded_at: Wed, 13 Apr 2016 06:32:23 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/bhc_sites?type=PortZone
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 06:40:26 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cbd9965e2e314c2c7aa1d7f9ba99c6af"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 922ff5be-7255-4f2d-9726-ee1e88989b79
+      X-Runtime:
+      - '0.128735'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"bhc_sites":[{"id":737,"name":"Albany Zone","port_name":"Albany","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":715,"name":"Brisbane Zone","port_name":"Brisbane","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":836,"name":"Bunbury Zone","port_name":"Bunbury","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":738,"name":"Esperance Zone","port_name":"Esperance","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":716,"name":"Geelong Zone","port_name":"Geelong","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":739,"name":"Geraldton Zone","port_name":"Geraldton","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":717,"name":"Gladstone Zone","port_name":"Gladstone","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":740,"name":"Kwinana Zone","port_name":"Kwinana","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":718,"name":"Mackay Zone","port_name":"Mackay","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":719,"name":"Melbourne Zone","port_name":"Melbourne","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":720,"name":"Newcastle Zone","port_name":"Newcastle","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":721,"name":"Port Adelaide Zone","port_name":"Port
+        Adelaide","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":722,"name":"Port Giles Zone","port_name":"Port
+        Giles","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":723,"name":"Port Kembla Zone","port_name":"Port
+        Kembla","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":724,"name":"Port Lincoln Zone","port_name":"Port
+        Lincoln","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":725,"name":"Portland Zone","port_name":"Portland","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":726,"name":"Thevenard Zone","port_name":"Thevenard","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"},{"id":727,"name":"Wallaroo Zone","port_name":"Wallaroo","bulk_handler_name":"Zone","type":"PortZone","pricing_enabled":true,"pricing_description_name":"Port
+        Zone Price","supports_port_zone_averaging":true,"tradable":false,"pricing_label":"Port
+        Zone Bid","transport_type":"Ship"}]}'
+    http_version: 
+  recorded_at: Mon, 19 Jun 2017 06:40:26 GMT
+recorded_with: VCR 3.0.3

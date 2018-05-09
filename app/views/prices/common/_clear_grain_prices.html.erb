@@ -1,0 +1,5 @@
+<% if @silo.tradable? %>
+  <exchange-market silo={silo} exchange_mapped={exchangeMapped}></exchange-market>
+<% else %>
+  <clear-grain-prices lastUpdatedAt={lastUpdatedAt} indicative_snapshot={snapshot} silo={silo}></clear-grain-prices>
+<% end %>

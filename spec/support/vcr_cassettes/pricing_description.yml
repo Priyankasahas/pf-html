@@ -1,0 +1,185 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/pricing_descriptions/milvale
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"2011cd7ef5b2be944edd878698a2a1c5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 64242038-7214-4e5f-b76f-fb4d8f88cb0e
+      X-Runtime:
+      - '0.026759'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Tue, 01 Sep 2015 03:31:49 GMT
+      Content-Length:
+      - '285'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"pricing_description":{"name":"Site Price","description":"Represents
+        the indicative price a buyer is bidding at an individual site level within
+        the bulk handling system. An applicable port equivalent price can be calculated
+        from the site price by adding GTA location differentials."}}'
+    http_version: 
+  recorded_at: Tue, 01 Sep 2015 03:31:49 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/pricing_descriptions/invalid
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: 'Not Found '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - cab9aff5-3f63-457f-9a4b-c31bc672a90d
+      X-Runtime:
+      - '0.012599'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Tue, 01 Sep 2015 03:31:49 GMT
+      Content-Length:
+      - '0'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 01 Sep 2015 03:31:49 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/pricing_descriptions/invalid
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Tue, 27 Jun 2017 23:05:26 GMT
+      Connection:
+      - close
+      Content-Type:
+      - text/html
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - bf4dd659-f107-484d-9c2a-dbb78d82e837
+      X-Runtime:
+      - '0.010821'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Tue, 27 Jun 2017 23:05:26 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/pricing_descriptions/milvale
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Tue, 27 Jun 2017 23:05:26 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a4668137098086cdb98fd75498555c51"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 36726b69-8398-408a-84d5-3174da5eb7e5
+      X-Runtime:
+      - '0.024382'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"pricing_description":{"name":"Site Price","description":"Represents
+        the indicative price a buyer is bidding at an individual site level within
+        the bulk handling system. An applicable port equivalent price can be calculated
+        from the site price by adding GTA location differentials."}}'
+    http_version: 
+  recorded_at: Tue, 27 Jun 2017 23:05:26 GMT
+recorded_with: VCR 3.0.3

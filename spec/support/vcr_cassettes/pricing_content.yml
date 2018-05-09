@@ -1,0 +1,1240 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/tocumwal/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5c4c02e448523e5a5d2d5b23a6ab0056"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4fa0f441-3de5-482d-a731-4ced4075041a
+      X-Runtime:
+      - '0.369061'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:45 GMT
+      Content-Length:
+      - '13778'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Tocumwal","bhc_site_state":"NSW","port_name":"Melbourne","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp
+        Operations Limited","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"29.0","merchant_prices":{"APH2":{"2015":[{"price":"271.0","port_price":"300.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"APH2","grain_season":2015,"created_at":"2015-10-01T02:20:32Z"}]},"H1":{"2014":[{"price":"259.0","port_price":"288.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"252.0","port_price":"281.0","movement":"0.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"243.0","port_price":"272.0","movement":"0.0","merchant":"AGD","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"APW1
+        MG":{"2016":[{"price":"258.0","port_price":"287.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"},{"price":"242.1","port_price":"271.1","movement":"-5.0","merchant":"Glencore","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T04:40:09Z"},{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"AGD","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}],"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2014":[{"price":"247.0","port_price":"276.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H2","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"243.0","port_price":"272.0","movement":"0.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.0","port_price":"259.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}],"2016":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"AGD","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"AUH2":{"2016":[{"price":"243.0","port_price":"272.0","movement":"-8.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"241.0","port_price":"270.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"241.0","port_price":"270.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"AGD","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"APW1
+        FMG":{"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"234.0","port_price":"263.0","movement":"0.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"210.0","port_price":"239.0","movement":"0.0","merchant":"AGD","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"HPS1":{"2015":[{"price":"239.18","port_price":"268.18","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"232.0","port_price":"261.0","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"236.0","port_price":"265.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"HPS1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}]},"AGP1":{"2014":[{"price":"239.0","port_price":"268.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"230.0","port_price":"259.0","movement":"0.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"190.0","port_price":"219.0","movement":"0.0","merchant":"AGD","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"SFW1":{"2015":[{"price":"234.0","port_price":"263.0","movement":"-1.0","merchant":"Glencore","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"219.0","port_price":"248.0","movement":"-3.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"203.0","port_price":"232.0","movement":"7.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"216.0","port_price":"245.0","movement":"0.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"200.0","port_price":"229.0","movement":"-8.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"FED1":{"2015":[{"price":"229.18","port_price":"258.18","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"222.0","port_price":"251.0","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"},{"price":"154.0","port_price":"183.0","movement":"0.0","merchant":"AGD","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T01:20:05Z"}],"2014":[{"price":"226.0","port_price":"255.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2016":[{"price":"165.0","port_price":"194.0","movement":"0.0","merchant":"AGD","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]}},"market_prices":{"APW1":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"-4.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"235.0","port_price":"264.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"241.0","port_price":"270.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"APW1","grain_season":2014}},"APH2":{"2015":{"price":"271.0","port_price":"300.0","price_high_movement":"0.0","prices_last_updated_at":"2015-10-01T02:20:32Z","bin_grade_code":"APH2","grain_season":2015}},"H1":{"2015":{"price":"252.0","port_price":"281.0","price_high_movement":"-10.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"243.0","port_price":"272.0","price_high_movement":"-9.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"259.0","port_price":"288.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"243.0","port_price":"272.0","price_high_movement":"-5.18","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"240.0","port_price":"269.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"247.0","port_price":"276.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"239.18","port_price":"268.18","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"HPS1","grain_season":2015},"2014":{"price":"236.0","port_price":"265.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"HPS1","grain_season":2014}},"AUH2":{"2015":{"price":"235.0","port_price":"264.0","price_high_movement":"-7.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"243.0","port_price":"272.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"241.0","port_price":"270.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"258.0","port_price":"287.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"234.0","port_price":"263.0","price_high_movement":"-9.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"210.0","port_price":"239.0","price_high_movement":"-17.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.0","port_price":"269.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"230.0","port_price":"259.0","price_high_movement":"-12.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"190.0","port_price":"219.0","price_high_movement":"-25.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"239.0","port_price":"268.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2016":{"price":"165.0","port_price":"194.0","price_high_movement":"-15.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"FED1","grain_season":2016},"2015":{"price":"229.18","port_price":"258.18","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"FED1","grain_season":2015},"2014":{"price":"226.0","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"234.0","port_price":"263.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"200.0","port_price":"229.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"216.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"SFW1","grain_season":2014}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH2","description":"Australian Prime
+        Hard Wheat No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"}],"grain_types":["Wheat","Pulses","Canola","Barley"]}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:45 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/pricing_descriptions/tocumwal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"2011cd7ef5b2be944edd878698a2a1c5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 9d43df7d-3d8d-4742-a9c9-4b46fda1ac59
+      X-Runtime:
+      - '0.053994'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:45 GMT
+      Content-Length:
+      - '285'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"pricing_description":{"name":"Site Price","description":"Represents
+        the indicative price a buyer is bidding at an individual site level within
+        the bulk handling system. An applicable port equivalent price can be calculated
+        from the site price by adding GTA location differentials."}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:45 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/market_commentaries/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"99c8adf98e1dedaccbe95e4cbba3862d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0262610c-736b-4fcb-9df0-25ba9b1f377e
+      X-Runtime:
+      - '0.028239'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:45 GMT
+      Content-Length:
+      - '980'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"market_commentary":{"grain_type_name":"Wheat","content":"#### New
+        season\n\nCommunicate your price to the market for old season grain, with
+        limited grain buyers are unaware of where the remaining is located. We prefer
+        to achieve price protection via futures markets this early in the season.
+        However the value is in cash, and particularly barley for those who grow both
+        crops.\n\n#### Old season\n\nTrade volumes for old season grain continue to
+        decline with much of the harvested crop now in the trades hands. For those
+        who have waited it out and are still holding some old season wheat recent
+        rainfall may war- rant a fresh assessment of your strategy. As the season
+        progresses the key risk is likely to be liquidity in the market. Export programs
+        are begin- ning to wind down and the number of active buyers will decline.
+        This poses the risk of reduced competition to drive values higher and should
+        be monitored going forward.","last_updated_at":"2015-10-07T15:01:23+11:00"}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:45 GMT
+- request:
+    method: post
+    uri: http://subscribers:password@localhost:4000/subscribers/8/searches
+    body:
+      encoding: UTF-8
+      string: '{"bhc_site_name":"Tocumwal","bulk_handler_abbreviation":"GNC","grain_type_name":"Wheat","forward_season":false}'
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: 'No Content '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 841f219e-1410-48da-b0f2-cc7ba6150e62
+      X-Runtime:
+      - '0.146514'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:45 GMT
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:45 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/tocumwal/GNC/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5c4c02e448523e5a5d2d5b23a6ab0056"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 61e00a81-609c-48d7-91b8-9855031155bd
+      X-Runtime:
+      - '0.205635'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:46 GMT
+      Content-Length:
+      - '13778'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Tocumwal","bhc_site_state":"NSW","port_name":"Melbourne","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp
+        Operations Limited","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"29.0","merchant_prices":{"APH2":{"2015":[{"price":"271.0","port_price":"300.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"APH2","grain_season":2015,"created_at":"2015-10-01T02:20:32Z"}]},"H1":{"2014":[{"price":"259.0","port_price":"288.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"252.0","port_price":"281.0","movement":"0.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"243.0","port_price":"272.0","movement":"0.0","merchant":"AGD","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"APW1
+        MG":{"2016":[{"price":"258.0","port_price":"287.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"},{"price":"242.1","port_price":"271.1","movement":"-5.0","merchant":"Glencore","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T04:40:09Z"},{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"AGD","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}],"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2014":[{"price":"247.0","port_price":"276.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H2","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"243.0","port_price":"272.0","movement":"0.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.0","port_price":"259.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}],"2016":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"AGD","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"AUH2":{"2016":[{"price":"243.0","port_price":"272.0","movement":"-8.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"241.0","port_price":"270.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"241.0","port_price":"270.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"AGD","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"APW1
+        FMG":{"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"234.0","port_price":"263.0","movement":"0.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"210.0","port_price":"239.0","movement":"0.0","merchant":"AGD","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"HPS1":{"2015":[{"price":"239.18","port_price":"268.18","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"232.0","port_price":"261.0","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"236.0","port_price":"265.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"HPS1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}]},"AGP1":{"2014":[{"price":"239.0","port_price":"268.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"230.0","port_price":"259.0","movement":"0.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"190.0","port_price":"219.0","movement":"0.0","merchant":"AGD","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"SFW1":{"2015":[{"price":"234.0","port_price":"263.0","movement":"-1.0","merchant":"Glencore","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"219.0","port_price":"248.0","movement":"-3.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"203.0","port_price":"232.0","movement":"7.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"216.0","port_price":"245.0","movement":"0.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"200.0","port_price":"229.0","movement":"-8.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"FED1":{"2015":[{"price":"229.18","port_price":"258.18","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"222.0","port_price":"251.0","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"},{"price":"154.0","port_price":"183.0","movement":"0.0","merchant":"AGD","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T01:20:05Z"}],"2014":[{"price":"226.0","port_price":"255.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2016":[{"price":"165.0","port_price":"194.0","movement":"0.0","merchant":"AGD","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]}},"market_prices":{"APW1":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"-4.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"235.0","port_price":"264.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"241.0","port_price":"270.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"APW1","grain_season":2014}},"APH2":{"2015":{"price":"271.0","port_price":"300.0","price_high_movement":"0.0","prices_last_updated_at":"2015-10-01T02:20:32Z","bin_grade_code":"APH2","grain_season":2015}},"H1":{"2015":{"price":"252.0","port_price":"281.0","price_high_movement":"-10.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"243.0","port_price":"272.0","price_high_movement":"-9.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"259.0","port_price":"288.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"243.0","port_price":"272.0","price_high_movement":"-5.18","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"240.0","port_price":"269.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"247.0","port_price":"276.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"239.18","port_price":"268.18","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"HPS1","grain_season":2015},"2014":{"price":"236.0","port_price":"265.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"HPS1","grain_season":2014}},"AUH2":{"2015":{"price":"235.0","port_price":"264.0","price_high_movement":"-7.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"243.0","port_price":"272.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"241.0","port_price":"270.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"258.0","port_price":"287.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"234.0","port_price":"263.0","price_high_movement":"-9.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"210.0","port_price":"239.0","price_high_movement":"-17.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.0","port_price":"269.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"230.0","port_price":"259.0","price_high_movement":"-12.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"190.0","port_price":"219.0","price_high_movement":"-25.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"239.0","port_price":"268.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2016":{"price":"165.0","port_price":"194.0","price_high_movement":"-15.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"FED1","grain_season":2016},"2015":{"price":"229.18","port_price":"258.18","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"FED1","grain_season":2015},"2014":{"price":"226.0","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"234.0","port_price":"263.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"200.0","port_price":"229.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"216.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"SFW1","grain_season":2014}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH2","description":"Australian Prime
+        Hard Wheat No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"}],"grain_types":["Wheat","Pulses","Canola","Barley"]}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:46 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/tocumwal/wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5c4c02e448523e5a5d2d5b23a6ab0056"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 73128bd4-fa3d-4ec0-94ff-c003189deefd
+      X-Runtime:
+      - '0.214490'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:46 GMT
+      Content-Length:
+      - '13778'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Tocumwal","bhc_site_state":"NSW","port_name":"Melbourne","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp
+        Operations Limited","grain_type_name":"Wheat","grain_season_start_year":2015,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"29.0","merchant_prices":{"APH2":{"2015":[{"price":"271.0","port_price":"300.0","movement":"0.0","merchant":"Riverina","bin_grade_code":"APH2","grain_season":2015,"created_at":"2015-10-01T02:20:32Z"}]},"H1":{"2014":[{"price":"259.0","port_price":"288.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"252.0","port_price":"281.0","movement":"0.0","merchant":"Noble","bin_grade_code":"H1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"243.0","port_price":"272.0","movement":"0.0","merchant":"AGD","bin_grade_code":"H1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"APW1
+        MG":{"2016":[{"price":"258.0","port_price":"287.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T03:00:25Z"},{"price":"242.1","port_price":"271.1","movement":"-5.0","merchant":"Glencore","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T04:40:09Z"},{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"AGD","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}],"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1
+        MG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"H2":{"2014":[{"price":"247.0","port_price":"276.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"H2","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"243.0","port_price":"272.0","movement":"0.0","merchant":"Noble","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"},{"price":"230.0","port_price":"259.0","movement":"0.0","merchant":"Wilmar
+        Gavilon","bin_grade_code":"H2","grain_season":2015,"created_at":"2016-02-08T00:30:08Z"}],"2016":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"AGD","bin_grade_code":"H2","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"AUH2":{"2016":[{"price":"243.0","port_price":"272.0","movement":"-8.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}],"2014":[{"price":"241.0","port_price":"270.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AUH2","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"Noble","bin_grade_code":"AUH2","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"APW1":{"2014":[{"price":"241.0","port_price":"270.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"235.0","port_price":"264.0","movement":"0.0","merchant":"AGD","bin_grade_code":"APW1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"APW1
+        FMG":{"2015":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Noble","bin_grade_code":"APW1
+        FMG","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}]},"ASW1":{"2014":[{"price":"240.0","port_price":"269.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"234.0","port_price":"263.0","movement":"0.0","merchant":"Noble","bin_grade_code":"ASW1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"210.0","port_price":"239.0","movement":"0.0","merchant":"AGD","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"HPS1":{"2015":[{"price":"239.18","port_price":"268.18","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"232.0","port_price":"261.0","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"HPS1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"}],"2014":[{"price":"236.0","port_price":"265.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"HPS1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}]},"AGP1":{"2014":[{"price":"239.0","port_price":"268.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2015":[{"price":"230.0","port_price":"259.0","movement":"0.0","merchant":"Noble","bin_grade_code":"AGP1","grain_season":2015,"created_at":"2016-02-07T23:45:07Z"}],"2016":[{"price":"190.0","port_price":"219.0","movement":"0.0","merchant":"AGD","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]},"SFW1":{"2015":[{"price":"234.0","port_price":"263.0","movement":"-1.0","merchant":"Glencore","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T04:40:09Z"},{"price":"219.0","port_price":"248.0","movement":"-3.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-04T23:20:06Z"},{"price":"203.0","port_price":"232.0","movement":"7.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2015,"created_at":"2016-02-05T02:05:06Z"}],"2014":[{"price":"216.0","port_price":"245.0","movement":"0.0","merchant":"ADM","bin_grade_code":"SFW1","grain_season":2014,"created_at":"2015-11-02T02:50:04Z"}],"2016":[{"price":"200.0","port_price":"229.0","movement":"-8.0","merchant":"AWB","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2016-02-04T04:00:07Z"}]},"FED1":{"2015":[{"price":"229.18","port_price":"258.18","movement":"-1.0","merchant":"GrainCorp
+        - Cash","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T04:15:09Z"},{"price":"222.0","port_price":"251.0","movement":"-7.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T03:00:25Z"},{"price":"154.0","port_price":"183.0","movement":"0.0","merchant":"AGD","bin_grade_code":"FED1","grain_season":2015,"created_at":"2016-02-05T01:20:05Z"}],"2014":[{"price":"226.0","port_price":"255.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"FED1","grain_season":2014,"created_at":"2016-01-04T03:20:06Z"}],"2016":[{"price":"165.0","port_price":"194.0","movement":"0.0","merchant":"AGD","bin_grade_code":"FED1","grain_season":2016,"created_at":"2016-02-05T01:20:05Z"}]}},"market_prices":{"APW1":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"-4.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1","grain_season":2015},"2016":{"price":"235.0","port_price":"264.0","price_high_movement":"-10.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"APW1","grain_season":2016},"2014":{"price":"241.0","port_price":"270.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"APW1","grain_season":2014}},"APH2":{"2015":{"price":"271.0","port_price":"300.0","price_high_movement":"0.0","prices_last_updated_at":"2015-10-01T02:20:32Z","bin_grade_code":"APH2","grain_season":2015}},"H1":{"2015":{"price":"252.0","port_price":"281.0","price_high_movement":"-10.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"H1","grain_season":2015},"2016":{"price":"243.0","port_price":"272.0","price_high_movement":"-9.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"H1","grain_season":2016},"2014":{"price":"259.0","port_price":"288.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"H1","grain_season":2014}},"H2":{"2015":{"price":"243.0","port_price":"272.0","price_high_movement":"-5.18","prices_last_updated_at":"2016-02-08T00:30:08Z","bin_grade_code":"H2","grain_season":2015},"2016":{"price":"240.0","port_price":"269.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"H2","grain_season":2016},"2014":{"price":"247.0","port_price":"276.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"H2","grain_season":2014}},"HPS1":{"2015":{"price":"239.18","port_price":"268.18","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"HPS1","grain_season":2015},"2014":{"price":"236.0","port_price":"265.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"HPS1","grain_season":2014}},"AUH2":{"2015":{"price":"235.0","port_price":"264.0","price_high_movement":"-7.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AUH2","grain_season":2015},"2016":{"price":"243.0","port_price":"272.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"AUH2","grain_season":2016},"2014":{"price":"241.0","port_price":"270.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"AUH2","grain_season":2014}},"APW1
+        FMG":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"-2.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        FMG","grain_season":2015}},"APW1 MG":{"2015":{"price":"240.0","port_price":"269.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"APW1
+        MG","grain_season":2015},"2016":{"price":"258.0","port_price":"287.0","price_high_movement":"0.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"ASW1":{"2015":{"price":"234.0","port_price":"263.0","price_high_movement":"-9.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"ASW1","grain_season":2015},"2016":{"price":"210.0","port_price":"239.0","price_high_movement":"-17.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"ASW1","grain_season":2016},"2014":{"price":"240.0","port_price":"269.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"ASW1","grain_season":2014}},"AGP1":{"2015":{"price":"230.0","port_price":"259.0","price_high_movement":"-12.18","prices_last_updated_at":"2016-02-07T23:45:07Z","bin_grade_code":"AGP1","grain_season":2015},"2016":{"price":"190.0","port_price":"219.0","price_high_movement":"-25.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"AGP1","grain_season":2016},"2014":{"price":"239.0","port_price":"268.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"AGP1","grain_season":2014}},"FED1":{"2016":{"price":"165.0","port_price":"194.0","price_high_movement":"-15.0","prices_last_updated_at":"2016-02-05T01:20:05Z","bin_grade_code":"FED1","grain_season":2016},"2015":{"price":"229.18","port_price":"258.18","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:15:09Z","bin_grade_code":"FED1","grain_season":2015},"2014":{"price":"226.0","port_price":"255.0","price_high_movement":"0.0","prices_last_updated_at":"2016-01-04T03:20:06Z","bin_grade_code":"FED1","grain_season":2014}},"SFW1":{"2015":{"price":"234.0","port_price":"263.0","price_high_movement":"-1.0","prices_last_updated_at":"2016-02-05T04:40:09Z","bin_grade_code":"SFW1","grain_season":2015},"2016":{"price":"200.0","port_price":"229.0","price_high_movement":"-8.0","prices_last_updated_at":"2016-02-04T04:00:07Z","bin_grade_code":"SFW1","grain_season":2016},"2014":{"price":"216.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2015-11-02T02:50:04Z","bin_grade_code":"SFW1","grain_season":2014}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"APH2","description":"Australian Prime
+        Hard Wheat No 2"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"HPS1","description":"Wheat - High Protein Screenings
+        No1"},{"code":"AUH2","description":"Australian Hard Varieties Wheat (Utility
+        Grade)"},{"code":"APW1 FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"APW1
+        MG","description":"Multigrade APW1"},{"code":"ASW1","description":"Australian
+        Standard White Varieties Wheat"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"}],"grain_types":["Wheat","Pulses","Canola","Barley"]}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:46 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/market_commentaries/wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"99c8adf98e1dedaccbe95e4cbba3862d"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ac225fe2-1a35-4322-99d8-b769a334ee0a
+      X-Runtime:
+      - '0.009979'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:46 GMT
+      Content-Length:
+      - '980'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"market_commentary":{"grain_type_name":"Wheat","content":"#### New
+        season\n\nCommunicate your price to the market for old season grain, with
+        limited grain buyers are unaware of where the remaining is located. We prefer
+        to achieve price protection via futures markets this early in the season.
+        However the value is in cash, and particularly barley for those who grow both
+        crops.\n\n#### Old season\n\nTrade volumes for old season grain continue to
+        decline with much of the harvested crop now in the trades hands. For those
+        who have waited it out and are still holding some old season wheat recent
+        rainfall may war- rant a fresh assessment of your strategy. As the season
+        progresses the key risk is likely to be liquidity in the market. Export programs
+        are begin- ning to wind down and the number of active buyers will decline.
+        This poses the risk of reduced competition to drive values higher and should
+        be monitored going forward.","last_updated_at":"2015-10-07T15:01:23+11:00"}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:46 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/invalid/Invalid/Invalid
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: 'Not Found '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 4e311be8-e4a7-4ee8-b260-99f765833b48
+      X-Runtime:
+      - '0.015821'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:47 GMT
+      Content-Length:
+      - '0'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:47 GMT
+- request:
+    method: get
+    uri: http://subscribers:password@localhost:4000/subscribers/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"932d8af61b6d810c5cf3db3391c79390"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0c4a804a-4365-4291-b940-e03a91210500
+      X-Runtime:
+      - '0.022632'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:47 GMT
+      Content-Length:
+      - '397'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"subscriber":{"id":8,"email":"marcus.crafter@nzx.com","pfid":37907,"first_name":"Marcus","last_name":"Crafter","state":"Unknown","password_support_notified_at":"2015-12-29T14:39:45+11:00","errors":{},"notifications_last_seen_at":null,"expires_at":null,"subscriber_type":"standard","activated":false,"onboarded_at":"2016-01-15T12:18:05+11:00","activation_required_by":"2015-10-09T11:00:00+11:00","retail_provider":{"full_name":"Profarmer","abbreviation":"profarmer","website_url":"www.profarmergrain.com.au","requires_authorization":false}}}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:47 GMT
+- request:
+    method: get
+    uri: http://subscribers:password@localhost:4000/subscribers/8/notifications?limit=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"dfa2dd8f1fa980eb4dea2f4e7fb79747"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5bca3d9b-7692-47c9-8eb4-8f46c77354e7
+      X-Runtime:
+      - '0.045147'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:47 GMT
+      Content-Length:
+      - '627'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"subscriber_notifications":[{"id":13,"tag":"new_feature","title":"New
+        Feature","summary":"This is a new feature","content":"This is a new feature
+        content","subscriber_type":"free,standard,premium","created_at":"2016-01-13T11:46:38+11:00"},{"id":12,"tag":"new_feature","title":"Coffee","summary":"I
+        \u003c3 Coffee","content":"I Love Coffee!","subscriber_type":"free,standard,premium","created_at":"2016-01-13T10:59:34+11:00"},{"id":10,"tag":"market_alert","title":"Market
+        Alert","summary":"This is a Market alert","content":"Market alert!!!","subscriber_type":"free,standard,premium","created_at":"2016-01-07T16:46:24+11:00"}]}'
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:47 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/prices/delivered-newcastle-basin/del/barley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: 'Not Found '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - text/plain; charset=utf-8
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 7d263e35-3b3b-40b4-82ee-f565b3c6817f
+      X-Runtime:
+      - '0.013445'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Mon, 15 Feb 2016 05:16:47 GMT
+      Content-Length:
+      - '0'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 15 Feb 2016 05:16:47 GMT
+- request:
+    method: get
+    uri: http://prices:password@localhost:5000/overnight_moves
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: 'OK '
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"bee56eacb06e6447531fc7ae43b71cdb"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 08f64c7b-dbf2-4508-8369-458e39e1e782
+      X-Runtime:
+      - '0.014549'
+      Vary:
+      - Origin
+      Server:
+      - WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)
+      Date:
+      - Thu, 18 Aug 2016 01:17:32 GMT
+      Content-Length:
+      - '173'
+      Connection:
+      - Keep-Alive
+    body:
+      encoding: UTF-8
+      string: '{"overnight_move":{"content":"CBOT Dec15 wheat down A$1-2/t. ICE Nov15
+        canola up A$4-5/t","created_at":"2015-10-07T15:21:30+11:00","updated_at":"2015-10-07T15:21:30+11:00"}}'
+    http_version:
+  recorded_at: Thu, 18 Aug 2016 01:17:32 GMT
+- request:
+    method: get
+    uri: http://subscribers:password@localhost:4000/subscribers/8/favourites
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 07 Jun 2017 03:40:30 GMT
+      Status:
+      - 200 OK
+      Connection:
+      - close
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"8883b238d12a9309c2d21373b177b635"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ad32fe3c-5324-4bf9-931f-3b564b8acb23
+      X-Runtime:
+      - '0.028872'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"favourites":[{"id":13,"order":1,"grain_type_name":"Wheat","bhc_site_name":"Melbourne
+        Terminal","bulk_handler_abbreviation":"GrainCorp","subscriber_id":8}]}'
+    http_version:
+  recorded_at: Wed, 07 Jun 2017 03:40:30 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/tocumwal/GNC/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:22 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9760ba58e167a9297db6001424174239"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 07e84077-3bd8-4056-9b1e-e8cf754d03a0
+      X-Runtime:
+      - '0.824717'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"snapshot":{"hero_bin_grade_code":"APW1","bhc_site_type":"BhcSite","bhc_site_name":"Tocumwal","bhc_site_state":"NSW","port_name":"Melbourne","bulk_handler_code":"GNC","bulk_handler_name":"GrainCorp
+        Operations Limited","bulk_handler_short_name":"GrainCorp","grain_type_name":"Wheat","grain_season_start_year":2016,"port_equivalent":true,"pricing_label":"Delivered
+        Site","tradable":true,"freight_rate":"29.0","merchant_prices":{"H1":{"2016":[{"price":"271.0","port_price":"300.0","movement":"2.0","merchant":"ADM","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"264.0","port_price":"293.0","movement":"4.0","merchant":"Graincorp","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"251.0","port_price":"280.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"237.0","port_price":"266.0","movement":"0.0","merchant":"AWB","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"236.0","port_price":"265.0","movement":"0.0","merchant":"LDA","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"229.0","port_price":"258.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"227.5","port_price":"256.5","movement":"0.0","merchant":"COFCO","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"226.5","port_price":"255.5","movement":"-2.5","merchant":"Elders","bin_grade_code":"H1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"}]},"APW1":{"2017":[{"price":"216.0","port_price":"245.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2017,"created_at":"2017-06-05T03:05:07Z"},{"price":"204.0","port_price":"233.0","movement":"0.0","merchant":"ADM
+        - Derived","bin_grade_code":"APW1","grain_season":2017,"created_at":"2017-06-05T05:30:06Z"}],"2015":[{"price":"211.5","port_price":"240.5","movement":"7.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2015,"created_at":"2017-05-02T04:30:10Z"}],"2016":[{"price":"197.0","port_price":"226.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"196.0","port_price":"225.0","movement":"0.0","merchant":"ADM","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"196.0","port_price":"225.0","movement":"0.0","merchant":"LDA","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"194.0","port_price":"223.0","movement":"4.0","merchant":"Graincorp","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"194.0","port_price":"223.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"193.0","port_price":"222.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"191.5","port_price":"220.5","movement":"0.0","merchant":"COFCO","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"190.5","port_price":"219.5","movement":"-2.5","merchant":"Elders","bin_grade_code":"APW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"}]},"APW1
+        MG":{"2017":[{"price":"216.0","port_price":"245.0","movement":"2.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T02:50:07Z"},{"price":"216.0","port_price":"245.0","movement":"0.0","merchant":"Glencore","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T03:05:07Z"},{"price":"213.0","port_price":"242.0","movement":"0.0","merchant":"AWB","bin_grade_code":"APW1
+        MG","grain_season":2017,"created_at":"2017-06-05T04:15:08Z"}],"2016":[{"price":"191.0","port_price":"220.0","movement":"0.0","merchant":"Graincorp","bin_grade_code":"APW1
+        MG","grain_season":2016,"created_at":"2017-01-10T04:40:07Z"}]},"APW1 FMG":{"2017":[{"price":"204.0","port_price":"233.0","movement":"0.0","merchant":"ADM
+        - Derived","bin_grade_code":"APW1 FMG","grain_season":2017,"created_at":"2017-06-05T05:30:06Z"}]},"AUH2":{"2016":[{"price":"199.0","port_price":"228.0","movement":"0.0","merchant":"AWB","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"196.0","port_price":"225.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"194.0","port_price":"223.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"194.0","port_price":"223.0","movement":"4.0","merchant":"Graincorp","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"193.0","port_price":"222.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"191.5","port_price":"220.5","movement":"0.0","merchant":"COFCO","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"190.5","port_price":"219.5","movement":"-2.5","merchant":"Elders","bin_grade_code":"AUH2","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"}]},"H2":{"2016":[{"price":"199.0","port_price":"228.0","movement":"0.0","merchant":"Wilmar
+        Gavilon - Derived","bin_grade_code":"H2","grain_season":2016,"created_at":"2017-06-06T00:20:06Z"}]},"ASW1":{"2016":[{"price":"194.0","port_price":"223.0","movement":"4.0","merchant":"Graincorp","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"193.0","port_price":"222.0","movement":"7.0","merchant":"LDA","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"189.0","port_price":"218.0","movement":"0.0","merchant":"AWB","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"},{"price":"187.0","port_price":"216.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"186.0","port_price":"215.0","movement":"0.0","merchant":"ADM","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"185.5","port_price":"214.5","movement":"0.0","merchant":"COFCO","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"184.5","port_price":"213.5","movement":"-2.5","merchant":"Elders","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"184.0","port_price":"213.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"ASW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"}]},"AGP1":{"2016":[{"price":"189.0","port_price":"218.0","movement":"4.0","merchant":"Graincorp","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T02:50:07Z"},{"price":"181.0","port_price":"210.0","movement":"0.0","merchant":"ADM","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:30:06Z"},{"price":"181.0","port_price":"210.0","movement":"0.0","merchant":"LDA","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"178.0","port_price":"207.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"176.5","port_price":"205.5","movement":"0.0","merchant":"COFCO","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:50:06Z"},{"price":"176.0","port_price":"205.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"175.5","port_price":"204.5","movement":"-2.5","merchant":"Elders","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"},{"price":"174.0","port_price":"203.0","movement":"0.0","merchant":"AWB","bin_grade_code":"AGP1","grain_season":2016,"created_at":"2017-06-05T04:15:08Z"}]},"SFW1":{"2016":[{"price":"156.0","port_price":"185.0","movement":"0.0","merchant":"LDA","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2017-06-05T04:45:06Z"},{"price":"136.0","port_price":"165.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"SFW1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"}]},"FED1":{"2016":[{"price":"121.0","port_price":"150.0","movement":"-2.0","merchant":"Glencore","bin_grade_code":"FED1","grain_season":2016,"created_at":"2017-06-05T03:05:07Z"},{"price":"113.0","port_price":"142.0","movement":"0.0","merchant":"Elders
+        - Derived","bin_grade_code":"FED1","grain_season":2016,"created_at":"2017-06-05T05:10:06Z"}]}},"market_prices":{"APW1":{"2016":{"price":"197.0","port_price":"226.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1","grain_season":2016},"2017":{"price":"216.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1","grain_season":2017},"2015":{"price":"211.5","port_price":"240.5","price_high_movement":"7.0","prices_last_updated_at":"2017-05-02T04:30:10Z","bin_grade_code":"APW1","grain_season":2015}},"H1":{"2016":{"price":"271.0","port_price":"300.0","price_high_movement":"2.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"H1","grain_season":2016}},"H2":{"2016":{"price":"199.0","port_price":"228.0","price_high_movement":"-12.0","prices_last_updated_at":"2017-06-06T00:20:06Z","bin_grade_code":"H2","grain_season":2016}},"AUH2":{"2016":{"price":"199.0","port_price":"228.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"AUH2","grain_season":2016}},"ASW1":{"2016":{"price":"194.0","port_price":"223.0","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"ASW1","grain_season":2016}},"APW1
+        MG":{"2017":{"price":"216.0","port_price":"245.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T04:15:08Z","bin_grade_code":"APW1
+        MG","grain_season":2017},"2016":{"price":"191.0","port_price":"220.0","price_high_movement":"0.0","prices_last_updated_at":"2017-01-10T04:40:07Z","bin_grade_code":"APW1
+        MG","grain_season":2016}},"APW1 FMG":{"2017":{"price":"204.0","port_price":"233.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"APW1
+        FMG","grain_season":2017}},"AGP1":{"2016":{"price":"189.0","port_price":"218.0","price_high_movement":"4.0","prices_last_updated_at":"2017-06-05T05:30:06Z","bin_grade_code":"AGP1","grain_season":2016}},"FED1":{"2016":{"price":"121.0","port_price":"150.0","price_high_movement":"-2.0","prices_last_updated_at":"2017-06-05T05:10:06Z","bin_grade_code":"FED1","grain_season":2016}},"SFW1":{"2016":{"price":"156.0","port_price":"185.0","price_high_movement":"0.0","prices_last_updated_at":"2017-06-05T04:45:06Z","bin_grade_code":"SFW1","grain_season":2016}}},"bin_grades":[{"code":"APW1","description":"Australian
+        Premium White Wheat No 1"},{"code":"H1","description":"Hard Wheat No 1"},{"code":"H2","description":"Hard
+        Wheat No 2"},{"code":"AUH2","description":"Australian Hard Varieties Wheat
+        (Utility Grade)"},{"code":"ASW1","description":"Australian Standard White
+        Varieties Wheat"},{"code":"APW1 MG","description":"Multigrade APW1"},{"code":"APW1
+        FMG","description":"APW1 Floating Spread Multi-Grade"},{"code":"AGP1","description":"Australian
+        General Purpose No.1"},{"code":"FED1","description":"Feed Wheat"},{"code":"SFW1","description":"Stock
+        Feed Winter Wheat"}],"grain_types":["Wheat","Pulses","Canola","Barley"]}}'
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:22 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/pricing_descriptions/tocumwal
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:22 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"a4668137098086cdb98fd75498555c51"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 869858dd-11cb-40ad-b113-e322ecb9e7be
+      X-Runtime:
+      - '0.033032'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"pricing_description":{"name":"Site Price","description":"Represents
+        the indicative price a buyer is bidding at an individual site level within
+        the bulk handling system. An applicable port equivalent price can be calculated
+        from the site price by adding GTA location differentials."}}'
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:22 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/market_commentaries/Wheat
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:22 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"bcab305932c98457f6703da99bb15306"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7385f8af-245c-4530-87c1-ad9868584ce6
+      X-Runtime:
+      - '0.053769'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"market_commentary":{"grain_type_name":"Wheat","content":"If you are
+        still holding some current season wheat crop monitor how the premiums and
+        discounts between different grades might be changing. \r\n\r\nAlso, think
+        about how much current season grain you have left, when you want to sell it
+        by and the market outlook during this time \r\n\r\nRead this weeks Profarmer
+        Newsletter for more information [or subscribe to our premium package by contacting
+        us directly.](https://www.profarmergrain.com.au/contact)","last_updated_at":"2017-02-23T16:36:37+11:00"}}'
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:22 GMT
+- request:
+    method: post
+    uri: http://localhost:4000/subscribers/8/searches
+    body:
+      encoding: UTF-8
+      string: '{"bhc_site_name":"Tocumwal","bhc_site_state":"NSW","bulk_handler_abbreviation":"GNC","grain_type_name":"Wheat","forward_season":false}'
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic c3Vic2NyaWJlcnM6cGFzc3dvcmQ=
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:22 GMT
+      Connection:
+      - close
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 377f2b47-3192-4305-8b31-4aa4bca004d0
+      X-Runtime:
+      - '0.066015'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:22 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/delivered-newcastle-basin/del/barley
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:22 GMT
+      Connection:
+      - close
+      Content-Type:
+      - text/html
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 1dbc9eb2-7422-461f-9676-0750d4ce2abb
+      X-Runtime:
+      - '0.019997'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:22 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/subscribers/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic c3Vic2NyaWJlcnM6cGFzc3dvcmQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:22 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"752e1bead69802c1cb7d3f3aabd795d8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5cbe1ba5-4a55-4f5c-801d-2eb142737d3e
+      X-Runtime:
+      - '0.016907'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"subscriber":{"id":8,"email":"test@cgx.com.au","pfid":null,"first_name":"M","last_name":"G","state":"NSW","password_support_notified_at":"2017-06-02T10:10:42+10:00","errors":{},"notifications_last_seen_at":"2017-06-07T14:39:55+10:00","expires_at":null,"subscriber_type":"free","activated":true,"onboarded_at":"2017-06-07T13:30:05+10:00","activation_required_by":null,"phone":null,"port_zone":null,"trading_name":null,"ngr_number":null,"source":"Clear
+        Grain Exchange","exchange_org_id":null,"exchange_user_id":null,"roles":"admin","retail_provider":{"full_name":"Profarmer","abbreviation":"profarmer","website_url":"www.profarmergrain.com.au","phone":"","identity_tag":"7c141e","requires_authorization":false,"email":"","bulk_handler_code":null}}}'
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:22 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/subscribers/8/notifications?limit=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic c3Vic2NyaWJlcnM6cGFzc3dvcmQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:23 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7f1fd810b3e4e0f3e34ee915ae0d11de"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - e62bd912-5af2-4dbc-987e-6ee01135ad0f
+      X-Runtime:
+      - '0.019045'
+      Vary:
+      - Origin
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdWJzY3JpYmVyX25vdGlmaWNhdGlvbnMiOlt7ImlkIjoyMiwidGFnIjoi
+        bWFya2V0X2FsZXJ0IiwidGl0bGUiOiIyMDE2LzE3IHNlYXNvbiBoYXMgYmVn
+        dW4hIiwic3VtbWFyeSI6IlBsZWFzZSBub3RlIHRoZSBkZWZhdWx0IHNlYXNv
+        biBpcyBub3cgMjAxNi8xNyIsImNvbnRlbnQiOiJUaGUgbmV3IGhhcnZlc3Qg
+        c2Vhc29uIGhhcyBvZmZpY2lhbGx5IGJlZ3VuIHdpdGggdGhlIGRlZmF1bHQg
+        c2Vhc29uIG5vdyBiZWluZyAyMDE2LzE3LiBcclxuXHJcbllvdSBjYW4gc3Rp
+        bGwgdmlldyBhY3RpdmUgYmlkcyBmb3IgMjAxNS8xNiBzZWFzb24gZ3JhaW4g
+        YnkgY2hhbmdpbmcgdGhlIHNlYXNvbiBzZWxlY3Rpb24gYWJvdmUgdGhlIGNo
+        YXJ0LiBcclxuXHJcbiFbXCJBbmltYXRpb24gc2hvd2luZyBzZWFzb24gc2Vs
+        ZWN0b3JcIl0oaHR0cHM6Ly9zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9w
+        cm9mYXJtZXIvSW1hZ2VmaWxlcy9TZWFzb25yb2xsb3Zlci5naWYpXHJcblxy
+        XG5UbyBlbnN1cmUgeW91IGFyZSBhY3Jvc3MgZ3JhaW4gcHJpY2VzLCBtYXJr
+        ZXQgYW5hbHlzaXMgYW5kIHNlbGxpbmcgdGFjdGljcyB0aGlzIGhhcnZlc3Q6
+        XHJcbk1ha2Ugc3VyZSB5b3UgaGF2ZSBkb3dubG9hZGVkIHRoZSBQcm9mYXJt
+        ZXIgQXVzdHJhbGlhIGFwcCB0byB5b3VyIGlQaG9uZSBhbmQgaXBhZFxyXG5I
+        YXZlIHlvdXIgUHJvZmFybWVyIEF1c3RyYWxpYW4gbG9naW4gYW5kIHBhc3N3
+        b3JkIGhhbmR5XHJcbkxvb2sgb3V0IGZvciB0aGUgbW9ybmluZyBtYXJrZXQg
+        aW5zaWdodHMgcmVwb3J0IGluIHlvdXIgaW5ib3ggZXZlcnkgbW9ybmluZyBi
+        ZWZvcmUgOEFNIEFFU1RcclxuU2VhcmNoIGFsbCBtZXJjaGFudCBiaWRzIGF0
+        IHlvdXIgbG9jYWwgc2lsbyBhdCBhbnkgdGltZSBcclxuXHJcblBsZWFzZSBk
+        byBub3QgaGVzaXRhdGUgdG8gY29udGFjdCB0aGUgUHJvZmFybWVyIEF1c3Ry
+        YWxpYSB0ZWFtIG9uIDEzMDAgMzAyIDE0MyBpZiB5b3UgaGF2ZSBhbnkgcXVl
+        c3Rpb25zIG9yIHRvIGRpc2N1c3MgcGFja2FnZSBvcHRpb25zLiIsInN1YnNj
+        cmliZXJfdHlwZSI6ImZyZWUsc3RhbmRhcmQscHJlbWl1bSIsImNyZWF0ZWRf
+        YXQiOiIyMDE2LTEwLTA2VDExOjEwOjUxKzExOjAwIn0seyJpZCI6MjAsInRh
+        ZyI6Im1hcmtldF9hbGVydCIsInRpdGxlIjoiVGhlIHJlc3VsdHMgYXJlIGlu
+        ISIsInN1bW1hcnkiOiIyMDE2IE5hdGlvbmFsIHBsYW50aW5nIHN1cnZleSBy
+        ZXBvcnQgaXMgbm93IGF2YWlsYWJsZS4gIiwiY29udGVudCI6IlRoaXMgeWVh
+        cidzIGluZGVwZW5kZW50IHBsYW50aW5nIHN1cnZleSByZXBvcnQgZ2l2ZXMg
+        Z3Jvd2VyIGluc2lnaHRzIGludG8gcGxhbnRpbmcgdHJlbmRzIGZvciB0aGlz
+        IHllYXLigJlzIGNyb3AgYm90aCBuYXRpb25hbGx5IGFuZCBhdCBhIGxvY2Fs
+        IGxldmVsLiAgXHJcblxyXG5BbGwgdGhvc2Ugd2hvIHBhcnRpY2lwYXRlZCBp
+        biB0aGUgc3VydmV5IHNob3VsZCBub3cgaGF2ZSByZWNlaXZlZCB0aGVpciBj
+        b3B5ICBvZiB0aGUgZmluZGluZ3MgdmlhIGVtYWlsLiBJZiB5b3UgZGlkIG5v
+        dCByZWNlaXZlIHRoZSByZXBvcnQsIGFuZCB5b3UgcGFydGljaXBhdGVkIGlu
+        IHRoZSBzdXJ2ZXksIHBsZWFzZSBjb250YWN0IHVzIHRvIG9idGFpbiB5b3Vy
+        IGNvcHkuICBcclxuXHJcblRoYW5rIHlvdSBvbmNlIGFnYWluIHRvIGFsbCB0
+        aG9zZSB3aG8gY29udHJpYnV0ZWQgYW5kIGNvbmdyYXR1bGF0aW9ucyB0byBH
+        cmFoYW0gV2F0ZXJzIG9mIFNBIHdobyB3b24gdGhlICQzLDAwMCBGbGlnaHQg
+        Q2VudHJlIEdpZnQgVm91Y2hlci5cclxuXHJcbiFbVGhlIFJlc3VsdHMgQXJl
+        IEluIV0oaHR0cHM6Ly9zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9wcm9m
+        YXJtZXIvTm90aWZpY2F0aW9ucy9UaGVyZXN1bHRzYXJlaW4uanBnKSBcclxu
+        Iiwic3Vic2NyaWJlcl90eXBlIjoiZnJlZSxzdGFuZGFyZCxwcmVtaXVtIiwi
+        Y3JlYXRlZF9hdCI6IjIwMTYtMDgtMThUMTU6MTk6MzMrMTA6MDAifSx7Imlk
+        IjoxOSwidGFnIjoic3lzdGVtX25vdGljZSIsInRpdGxlIjoiMjAxNiBOYXRp
+        b25hbCBQbGFudGluZyBTdXJ2ZXkiLCJzdW1tYXJ5IjoiRm9yIHlvdXIgY2hh
+        bmNlIHRvIHdpbiBhICQzMDAwIEZsaWdodCBDZW50cmUgZ2lmdCBjYXJkLCBj
+        bGljayB0aGUgbGluayBiZWxvdyBhbmQgY29tcGxldGUgdGhlIHBsYW50aW5n
+        IHN1cnZleSBieSBGcmlkYXkgOHRoIEp1bHkgMjAxNi4iLCJjb250ZW50Ijoi
+        Rm9yIHlvdXIgY2hhbmNlIHRvIHdpbiBhICQzMDAwIEZsaWdodCBDZW50cmUg
+        Z2lmdCBjYXJkLCBjbGljayBvbiB0aGUgaW1hZ2UgYmVsb3cgYW5kIGNvbXBs
+        ZXRlIHRoZSBwbGFudGluZyBzdXJ2ZXkgYnkgRnJpZGF5IDh0aCBKdWx5IDIw
+        MTYuXHJcblxyXG5cdTAwM2NhIHRhcmdldD1cIl9ibGFua1wiIGhyZWY9XCJo
+        dHRwOi8vd3d3LnN1cnZleW1ldGhvZHMuY29tL0VuZFVzZXIuYXNweD84OEFD
+        QzBEODhBQ0ZERkRBODhcIlx1MDAzZVx1MDAzY2ltZyBzcmM9XCJodHRwczov
+        L3MzLWFwLXNvdXRoZWFzdC0yLmFtYXpvbmF3cy5jb20vcHJvZmFybWVyLXN1
+        cnZleS8yMDE2LVBsYW50aW5nLVN1cnZleS1HcmFwaGljLnBuZ1wiXHUwMDNl
+        XHUwMDNjL2ltZ1x1MDAzZVx1MDAzYy9hXHUwMDNlIiwic3Vic2NyaWJlcl90
+        eXBlIjoiZnJlZSxzdGFuZGFyZCxwcmVtaXVtIiwiY3JlYXRlZF9hdCI6IjIw
+        MTYtMDYtMjBUMTY6MTk6MDQrMTA6MDAifV19
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:23 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/overnight_moves
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:23 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"393477aa8c149ce90c5d4c7fc3ccf7be"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 62f0bfa1-5a2d-4b3d-b9f6-e60ee9e7f0f1
+      X-Runtime:
+      - '0.011893'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"overnight_move":{"content":"CBOT Jul 17 wheat down A$1/t. ICE Jul
+        17 canola up A$7/t. Matif Aug 17 canola down A$4-5/t.","created_at":"2017-06-06T09:40:15+10:00","updated_at":"2017-06-06T09:40:15+10:00"}}'
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:23 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/subscribers/8/favourites
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic c3Vic2NyaWJlcnM6cGFzc3dvcmQ=
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:23 GMT
+      Connection:
+      - close
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4cee90b87770b85189bdfee018354db2"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4310078d-2afa-4b0a-aaed-8c8068ee353d
+      X-Runtime:
+      - '0.017095'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: '{"favourites":[]}'
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:23 GMT
+- request:
+    method: get
+    uri: http://localhost:5000/prices/invalid/Invalid/Invalid
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Profarmer Services HTML Client
+      Authorization:
+      - Basic cHJpY2VzOnBhc3N3b3Jk
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Date:
+      - Mon, 19 Jun 2017 07:01:23 GMT
+      Connection:
+      - close
+      Content-Type:
+      - text/html
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 2d5b1be5-73c5-460d-a7c0-24036763238d
+      X-Runtime:
+      - '0.011320'
+      Vary:
+      - Origin
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Mon, 19 Jun 2017 07:01:23 GMT
+recorded_with: VCR 3.0.3

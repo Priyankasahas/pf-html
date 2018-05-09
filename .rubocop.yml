@@ -1,0 +1,28 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'bin/**'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - !ruby/regexp /old_and_unused\.rb$/
+Metrics/LineLength:
+  Max: 120
+Style/NumericLiterals:
+  MinDigits: 6
+Style/Documentation:
+  Enabled: false
+Metrics/ParameterLists:
+  Max: 6
+  CountKeywordArgs: true
+Metrics/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - 'spec/**/*.rb'
+Style/FormatStringToken:
+  Enabled: false
+Style/FileName:
+  Exclude:
+    - 'Gemfile'

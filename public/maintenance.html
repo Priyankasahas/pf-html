@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Maintenance - We will be back soon</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    html {
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: #EEEEEE;
+    }
+
+    .maintenance-page-wrapper {
+      text-align: center;
+    }
+
+    .row {
+      max-width: 1170px;
+      margin: 0 auto;
+    }
+
+    .row:nth-of-type(2) {
+      background-color: #FFFFFF;
+      max-width: 600px;
+      margin-top: 80px;
+      padding: 40px;
+      border: 1px solid #CCCCCC;
+    }
+
+    .row p {
+      display: inline-block;
+      font-family: 'Myriad Pro', sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      color: #555555;
+      position: relative;
+      bottom: 12px;
+      left: 12px;
+    }
+
+    img.logo {
+      height: 36.5px;
+      width: 15px;
+      display: inline-block;
+      padding: 20px 0 0 20px;
+    }
+
+    img {
+      height: 200px;
+      width: 200px;
+      padding: 10px 0;
+    }
+
+    h3 {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      color: #333333;
+      font-weight: 400;
+    }
+
+    a {
+      color: #005FEE;
+      cursor: pointer;
+      text-transform: none;
+      text-decoration: none;
+    }
+
+    a:active {
+      color: #005FEE;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #005FEE;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #005FEE;
+      text-decoration: none;
+    }
+
+    a:focus {
+      color: #005FEE;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<div class="maintenance-page-wrapper">
+  <div class="row">
+    <a href="/">
+      <img class="logo" src="profarmer-logo.png" />
+      <p>Profarmer</p>
+    </a>
+  </div>
+  <div class="row">
+    <img src="maintenance.png" alt="" />
+    <h3>Profarmer is currently under maintenance.</h3>
+    <h3>We will be back soon, thank you for your patience.</a>
+    </h3>
+  </div>
+</div>
+<script type="text/javascript">
+  ! function() {
+    var analytics = window.analytics = window.analytics || [];
+    if (!analytics.initialize)
+      if (analytics.invoked) window.console && console.error && console.error("Segment snippet included twice.");
+      else {
+        analytics.invoked = !0;
+        analytics.methods = ["trackSubmit", "trackClick", "trackLink", "trackForm", "pageview", "identify", "reset", "group", "track", "ready", "alias", "page", "once", "off", "on"];
+        analytics.factory = function(t) {
+          return function() {
+            var e = Array.prototype.slice.call(arguments);
+            e.unshift(t);
+            analytics.push(e);
+            return analytics
+          }
+        };
+        for (var t = 0; t < analytics.methods.length; t++) {
+          var e = analytics.methods[t];
+          analytics[e] = analytics.factory(e)
+        }
+        analytics.load = function(t) {
+          var e = document.createElement("script");
+          e.type = "text/javascript";
+          e.async = !0;
+          e.src = ("https:" === document.location.protocol ? "https://" : "http://") + "cdn.segment.com/analytics.js/v1/" + t + "/analytics.min.js";
+          var n = document.getElementsByTagName("script")[0];
+          n.parentNode.insertBefore(e, n)
+        };
+        analytics.SNIPPET_VERSION = "3.1.0";
+        analytics.load("JIuCxaWbnDGpBGIRoQwm2Rmlu6TWzeht");
+        analytics.page()
+      }
+  }();
+</script>
+
+</html>

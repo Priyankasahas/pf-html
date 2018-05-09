@@ -1,0 +1,75 @@
+<%= render "prices/common/price_chart" %>
+
+<% content_for(:title) { @silo.formatted_silo_name } %>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-12">
+                <%= render "prices/common/clear_grain_prices" %>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <market-commentary market_commentary={marketCommentary} overnight_move={marketOvernightMove}></market-commentary>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+          <div class="row">
+            <div class="col-md-12">
+              <merchant-prices snapshot={snapshot} silo={silo}></merchant-prices>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+<% content_for :javascript do %>
+  var silo = $profarmer.currentSilo;
+
+  silo.service_url = '<%= prices_service_url.endpoint %>';
+  silo.clear_service_url = '<%= clear_grain_service_url.endpoint %>';
+  silo.bhc_site_name = '<%= @silo.bhc_site_name %>';
+  silo.bhc_site_type = '<%= @silo.bhc_site_type %>';
+  silo.port_name = '<%= @silo.port_name %>';
+  silo.bhc_site_type = '<%= @silo.bhc_site_type %>';
+  silo.bulk_handler_code = '<%= @silo.bulk_handler_code %>';
+  silo.bulk_handler_name = '<%= @silo.bulk_handler_name %>';
+  silo.bulk_handler_short_name = '<%= @silo.bulk_handler_short_name %>';
+  silo.grain_type = '<%= @silo.grain_type_name %>';
+  silo.grain_season = '<%= @silo.default_grain_season_start_year %>';
+  silo.initBinGradeSelector(true, '<%= @silo.default_bin_grade_code %>', <%= raw @silo.bin_grades.to_json %>);
+  silo.pricing_label = '<%= @silo.pricing_label %>';
+  silo.port_equivalent = <%= @silo.port_equivalent %>;
+  silo.tradable  = <%= @silo.tradable? %>;
+  silo.freight_rate = <%= @silo.freight_rate %>;
+  silo.filtered_bulk_handler = 'GNC';
+
+  ReactMount({
+  "price-chart": $profarmer.components.PriceChart,
+  "price-search": $profarmer.components.PriceSearch,
+  "merchant-prices": $profarmer.components.MerchantPrices,
+  "clear-grain-prices": $profarmer.components.ClearGrainPrices,
+  "market-commentary": $profarmer.components.MarketCommentary,
+  "exchange-market": $profarmer.components.ExchangeMarket
+  }, {
+  props: {
+  snapshot: <%= raw @silo.formatted_for_json_paid.to_json %>,
+  silo: silo,
+  lastUpdatedAt: <%=raw Time.zone.now.to_json %>,
+  commentaryLastUpdatedAt: <%= raw @silo.market_commentary.last_updated_at.to_json %>,
+  hero: <%= raw @silo.snapshot.hero_bin_grade_code.to_json %>,
+  isChilledOut: <%= raw @is_chilled_out.to_json %>,
+  limitedZoomOptions: <%= raw false.to_json %>,
+  marketCommentary: <%= raw @silo.commentary_formatted_for_json.to_json %>,
+  marketOvernightMove: <%= raw @market_overnight_move.to_json %>,
+  exchangeMapped: <%= raw false.to_json %>
+  }
+  }
+  );
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+<% end %>

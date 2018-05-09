@@ -1,0 +1,53 @@
+@import "private.scss";
+.navbar {
+    .navbar-right {
+        .logo-header {
+            background: image-url("grainflow-logo.png") no-repeat center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            margin: 24px 0 0;
+            width: 133px;
+            height: 24px;
+        }
+    }
+}
+.retail-button-background-colour.retail-button-background-colour {
+    background-color: #E6C087;
+}
+.retail-button-background-colour:focus,
+.retail-button-background-colour:hover {
+    background-color: #E6C087;
+}
+.retail-button-background-colour:active:focus,
+.retail-button-background-colour:active:hover {
+    background-color: #E6C087;
+}
+.exchange-market-loading-animation-background-colour {
+    background-color: #E6C087;
+}
+.retail-nav-background-colour {
+    background-color: #D3E3DF;
+}
+.nav-profile-icon-black {
+  background-image: image-url("profile-icon-black.png");
+}
+.nav-notification-bell-icon-black {
+  background-image: image-url("notification-icon-black.png");
+}
+.ui-datepicker td a:hover {
+    background-color: #E6C087;
+}
+.retail-text-colour {
+    color: #006756;
+}
+.preview-offer-silo {
+    span {
+        color: #006756;
+    }
+}
+@media (max-width: 767px) {
+    .navbar .navbar-right .logo-header {
+        margin: 24px 0 0 12px;
+    }
+}
