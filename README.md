@@ -75,5 +75,9 @@ CSV API providing access to paid data feeds.
 # Running the overall system
 
 Run bundle install within both the apps.
+
 Please start pf-html server on localhost:3000 and pf-prices server on localhost:5000.
+
 Gulp on pf-html to bundle javascript in pf-html.
+
+Visit http://localhost:3000/prices/milvale/gnc/wheat
